@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "h2 {\n    text-align: center;\n}\n\n#main {\n    background-color:lightgreen;\n    width:300px;\n    padding:20px;\n    margin-left:33%;\n    border: 4px dotted grey;\n    border-bottom-left-radius: 10px;\n    border-radius: 15px;\n    font-family: monospace;\n}\n\n#main:hover {\n    background-color:aliceblue;\n    cursor:-webkit-grab;\n    cursor:grab;\n}\n\n#main:active, #main:visited{\n    background-color: darkolivegreen;\n    cursor:-webkit-grabbing;\n    cursor:grabbing;\n}\n\n"
+module.exports = "h2 {\n    text-align: center;\n}\n\n#main {\n    background-color:olivedrab;\n    width:300px;\n    padding:20px;\n/*    margin-left:33%;*/\n    border: 4px dotted grey;\n    border-bottom-left-radius: 10px;\n    border-radius: 15px;\n    font-family: monospace;\n}\n\n#main:hover {\n    background-color:lightgreen;\n/*    cursor:grab;*/\n}\n\n#main:active, #main:visited{\n/*    background-color: darkolivegreen;*/\n/*    cursor:grabbing;*/\n}\n\n"
 
 /***/ }),
 
@@ -41,7 +41,7 @@ module.exports = "h2 {\n    text-align: center;\n}\n\n#main {\n    background-co
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"main\">\n    <div style=\"text-align:center\">\n      <h1>\n        Welcome \n      </h1>\n\n    </div>\n    <h2>Hi</h2>\n\n</div>"
+module.exports = "<div id=\"main\">\n    <div style=\"text-align:center\">\n      <h1>\n        Welcome \n      </h1>\n\n    </div>\n    <h2>Hi</h2>\n    <app-projects></app-projects>\n\n</div>"
 
 /***/ }),
 
@@ -93,13 +93,19 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "AppModule", function() { return AppModule; });
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _projects_projects_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./projects/projects.component */ "./src/app/projects/projects.component.ts");
+/* harmony import */ var _project_detail_project_detail_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./project-detail/project-detail.component */ "./src/app/project-detail/project-detail.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
     else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
     return c > 3 && r && Object.defineProperty(target, key, r), r;
 };
+
+
+ //<--NgModel
 
 
 
@@ -109,16 +115,173 @@ var AppModule = /** @class */ (function () {
     AppModule = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"]
+                _app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"],
+                _projects_projects_component__WEBPACK_IMPORTED_MODULE_4__["ProjectsComponent"],
+                _project_detail_project_detail_component__WEBPACK_IMPORTED_MODULE_5__["ProjectDetailComponent"]
             ],
             imports: [
-                _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"]
+                _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
+                _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"]
             ],
             providers: [],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_2__["AppComponent"]]
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/project-detail/project-detail.component.css":
+/*!*************************************************************!*\
+  !*** ./src/app/project-detail/project-detail.component.css ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ""
+
+/***/ }),
+
+/***/ "./src/app/project-detail/project-detail.component.html":
+/*!**************************************************************!*\
+  !*** ./src/app/project-detail/project-detail.component.html ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<p>\n  project-detail works!\n</p>\n"
+
+/***/ }),
+
+/***/ "./src/app/project-detail/project-detail.component.ts":
+/*!************************************************************!*\
+  !*** ./src/app/project-detail/project-detail.component.ts ***!
+  \************************************************************/
+/*! exports provided: ProjectDetailComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProjectDetailComponent", function() { return ProjectDetailComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+var ProjectDetailComponent = /** @class */ (function () {
+    function ProjectDetailComponent() {
+    }
+    ProjectDetailComponent.prototype.ngOnInit = function () {
+    };
+    ProjectDetailComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-project-detail',
+            template: __webpack_require__(/*! ./project-detail.component.html */ "./src/app/project-detail/project-detail.component.html"),
+            styles: [__webpack_require__(/*! ./project-detail.component.css */ "./src/app/project-detail/project-detail.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], ProjectDetailComponent);
+    return ProjectDetailComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/projects-data.ts":
+/*!**********************************!*\
+  !*** ./src/app/projects-data.ts ***!
+  \**********************************/
+/*! exports provided: PROJECTS */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PROJECTS", function() { return PROJECTS; });
+var PROJECTS = [
+    { id: 4, name: 'Ang' },
+    { id: 5, name: 'PHP' },
+    { id: 6, name: 'JAVA' }
+];
+
+
+/***/ }),
+
+/***/ "./src/app/projects/projects.component.css":
+/*!*************************************************!*\
+  !*** ./src/app/projects/projects.component.css ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = ".project {\n    background-color: white;\n    padding:10px;\n    margin:5px;\n    border-radius: 3px;\n    cursor:pointer;\n    list-style: none;\n}\n\n.project:hover, .badge:hover {\n    background-color: black;\n    color:whitesmoke;\n}\n\n.badge {\n/*    background-color: beige;*/\n/*    display: inline-block;*/\n}\n\n.selected { \nbackground-color:lightgoldenrodyellow;\n}"
+
+/***/ }),
+
+/***/ "./src/app/projects/projects.component.html":
+/*!**************************************************!*\
+  !*** ./src/app/projects/projects.component.html ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "<h2>All Projects</h2>\n\n<ul class=\"projects\">\n    <li *ngFor=\"let project of projects\" [class.selected]=\"project === selectedProject\"  (click)=\"onSelect(project)\" class=\"project\">\n        <span class=\"badge\">{{project.id}}</span> - \n        <span>{{project.name}}</span>\n    </li>\n    \n    \n\n</ul>\n    <div id=\"SelectedProject\" *ngIf=\"selectedProject\">\n        <input [(ngModel)]=\"selectedProject.name\" placeholder=\"name\">\n<h2>Selected Project: {{selectedProject.name}}</h2>\n        \n        <span id=\"deselectProject\" (click)=\"deselect()\">Deselect</span>\n        \n    </div>"
+
+/***/ }),
+
+/***/ "./src/app/projects/projects.component.ts":
+/*!************************************************!*\
+  !*** ./src/app/projects/projects.component.ts ***!
+  \************************************************/
+/*! exports provided: ProjectsComponent */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProjectsComponent", function() { return ProjectsComponent; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _projects_data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../projects-data */ "./src/app/projects-data.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+var ProjectsComponent = /** @class */ (function () {
+    function ProjectsComponent() {
+        this.projects = _projects_data__WEBPACK_IMPORTED_MODULE_1__["PROJECTS"];
+    }
+    ProjectsComponent.prototype.onSelect = function (project) {
+        this.selectedProject = project;
+    };
+    ProjectsComponent.prototype.deselect = function () {
+        this.selectedProject = null;
+    };
+    ProjectsComponent.prototype.ngOnInit = function () {
+    };
+    ProjectsComponent = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
+            selector: 'app-projects',
+            template: __webpack_require__(/*! ./projects.component.html */ "./src/app/projects/projects.component.html"),
+            styles: [__webpack_require__(/*! ./projects.component.css */ "./src/app/projects/projects.component.css")]
+        }),
+        __metadata("design:paramtypes", [])
+    ], ProjectsComponent);
+    return ProjectsComponent;
 }());
 
 
