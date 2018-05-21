@@ -152,7 +152,7 @@ module.exports = ""
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<p>\n  project-detail works!\n</p>\n"
+module.exports = "<div *ngIf=\"project\" id=\"SelectedProject\">\n    <h2>Selected Project: {{project.name}}</h2>\n    <span> - {{project.id}}</span>\n\n    <div>\n        <label>project\n            <input [(ngModel)]=\"project.name\" placeholder=\"name\">\n        </label>\n    </div>\n\n\n</div>\n"
 
 /***/ }),
 
@@ -167,6 +167,7 @@ module.exports = "<p>\n  project-detail works!\n</p>\n"
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProjectDetailComponent", function() { return ProjectDetailComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var _project__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../project */ "./src/app/project.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -177,11 +178,16 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
 
+
 var ProjectDetailComponent = /** @class */ (function () {
     function ProjectDetailComponent() {
     }
     ProjectDetailComponent.prototype.ngOnInit = function () {
     };
+    __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Input"])(),
+        __metadata("design:type", _project__WEBPACK_IMPORTED_MODULE_1__["Project"])
+    ], ProjectDetailComponent.prototype, "project", void 0);
     ProjectDetailComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
             selector: 'app-project-detail',
@@ -191,6 +197,26 @@ var ProjectDetailComponent = /** @class */ (function () {
         __metadata("design:paramtypes", [])
     ], ProjectDetailComponent);
     return ProjectDetailComponent;
+}());
+
+
+
+/***/ }),
+
+/***/ "./src/app/project.ts":
+/*!****************************!*\
+  !*** ./src/app/project.ts ***!
+  \****************************/
+/*! exports provided: Project */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "Project", function() { return Project; });
+var Project = /** @class */ (function () {
+    function Project() {
+    }
+    return Project;
 }());
 
 
@@ -234,7 +260,7 @@ module.exports = ".project {\n    background-color: white;\n    padding:10px;\n 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h2>All Projects</h2>\n\n<ul class=\"projects\">\n    <li *ngFor=\"let project of projects\" [class.selected]=\"project === selectedProject\"  (click)=\"onSelect(project)\" class=\"project\">\n        <span class=\"badge\">{{project.id}}</span> - \n        <span>{{project.name}}</span>\n    </li>\n    \n    \n\n</ul>\n    <div id=\"SelectedProject\" *ngIf=\"selectedProject\">\n        <input [(ngModel)]=\"selectedProject.name\" placeholder=\"name\">\n<h2>Selected Project: {{selectedProject.name}}</h2>\n        \n        <span id=\"deselectProject\" (click)=\"deselect()\">Deselect</span>\n        \n    </div>"
+module.exports = "<h2>All Projects</h2>\n\n<ul class=\"projects\">\n    <li *ngFor=\"let project of projects\" [class.selected]=\"project === selectedProject\" (click)=\"onSelect(project)\" class=\"project\">\n        <span class=\"badge\">{{project.id}}</span> -\n        <span>{{project.name}}</span>\n    </li>\n\n\n\n</ul>\n<app-project-detail [project]=\"selectedProject\"></app-project-detail>\n\n\n<div *ngIf=\"selectedProject\">\n    <span id=\"deselectProject\" (click)=\"deselect()\">Deselect Project: {{selectedProject.name}}</span>\n</div>\n"
 
 /***/ }),
 
