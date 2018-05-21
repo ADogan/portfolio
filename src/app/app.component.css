@@ -3,10 +3,10 @@ h2 {
 }
 
 #main {
-    background-color:lightgreen;
+    background-color:olivedrab;
     width:300px;
     padding:20px;
-    margin-left:33%;
+/*    margin-left:33%;*/
     border: 4px dotted grey;
     border-bottom-left-radius: 10px;
     border-radius: 15px;
@@ -14,12 +14,12 @@ h2 {
 }
 
 #main:hover {
-    background-color:aliceblue;
-    cursor:grab;
+    background-color:lightgreen;
+/*    cursor:grab;*/
 }
 
 #main:active, #main:visited{
-    background-color: darkolivegreen;
-    cursor:grabbing;
+/*    background-color: darkolivegreen;*/
+/*    cursor:grabbing;*/
 }
 

@@ -1,3 +1,18 @@
-<p>
-  projects works!
-</p>
+<h2>All Projects</h2>
+
+<ul class="projects">
+    <li *ngFor="let project of projects" [class.selected]="project === selectedProject"  (click)="onSelect(project)" class="project">
+        <span class="badge">{{project.id}}</span> - 
+        <span>{{project.name}}</span>
+    </li>
+    
+    
+
+</ul>
+    <div id="SelectedProject" *ngIf="selectedProject">
+        <input [(ngModel)]="selectedProject.name" placeholder="name">
+<h2>Selected Project: {{selectedProject.name}}</h2>
+        
+        <span id="deselectProject" (click)="deselect()">Deselect</span>
+        
+    </div>
