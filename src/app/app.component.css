@@ -3,19 +3,20 @@ h2 {
 }
 
 #main {
-    background-color:olivedrab;
+    /* background-color:olivedrab; */
     width:300px;
     padding:20px;
 /*    margin-left:33%;*/
-    border: 4px dotted grey;
+    border: 2px dotted grey;
     border-bottom-left-radius: 10px;
     border-radius: 15px;
     font-family: monospace;
 }
 
 #main:hover {
-    background-color:lightgreen;
+    /* background-color:lightgreen; */
 /*    cursor:grab;*/
+    border: 2px solid black;
 }
 
 #main:active, #main:visited{
