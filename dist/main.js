@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "h2 {\n    text-align: center;\n}"
+module.exports = "h2 {\n    text-align: center;\n}\n\n#main {\n    background-color:lightgreen;\n    width:300px;\n    padding:20px;\n    margin-left:33%;\n    border: 4px dotted grey;\n    border-bottom-left-radius: 10px;\n    border-radius: 15px;\n    font-family: monospace;\n}\n\n#main:hover {\n    background-color:aliceblue;\n    cursor:-webkit-grab;\n    cursor:grab;\n}\n\n#main:active, #main:visited{\n    background-color: darkolivegreen;\n    cursor:-webkit-grabbing;\n    cursor:grabbing;\n}\n\n"
 
 /***/ }),
 
@@ -41,7 +41,7 @@ module.exports = "h2 {\n    text-align: center;\n}"
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<!--The content below is only a placeholder and can be replaced.-->\n<div style=\"text-align:center\">\n  <h1>\n    Welcome {{ title }}!\n  </h1>\n\n</div>\n<h2>Hi</h2>\n\n"
+module.exports = "<div id=\"main\">\n    <div style=\"text-align:center\">\n      <h1>\n        Welcome \n      </h1>\n\n    </div>\n    <h2>Hi</h2>\n\n</div>"
 
 /***/ }),
 
