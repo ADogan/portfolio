@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "h2 {\n    text-align: center;\n}\n\n#main {\n    background-color:olivedrab;\n    width:300px;\n    padding:20px;\n/*    margin-left:33%;*/\n    border: 4px dotted grey;\n    border-bottom-left-radius: 10px;\n    border-radius: 15px;\n    font-family: monospace;\n}\n\n#main:hover {\n    background-color:lightgreen;\n/*    cursor:grab;*/\n}\n\n#main:active, #main:visited{\n/*    background-color: darkolivegreen;*/\n/*    cursor:grabbing;*/\n}\n\n"
+module.exports = "h2 {\n    text-align: center;\n}\n\n#main {\n    /* background-color:olivedrab; */\n    width:300px;\n    padding:20px;\n/*    margin-left:33%;*/\n    border: 2px dotted grey;\n    border-bottom-left-radius: 10px;\n    border-radius: 15px;\n    font-family: monospace;\n}\n\n#main:hover {\n    /* background-color:lightgreen; */\n/*    cursor:grab;*/\n    border: 2px solid black;\n}\n\n#main:active, #main:visited{\n/*    background-color: darkolivegreen;*/\n/*    cursor:grabbing;*/\n}\n\n"
 
 /***/ }),
 
@@ -203,6 +203,50 @@ var ProjectDetailComponent = /** @class */ (function () {
 
 /***/ }),
 
+/***/ "./src/app/project.service.ts":
+/*!************************************!*\
+  !*** ./src/app/project.service.ts ***!
+  \************************************/
+/*! exports provided: ProjectService */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProjectService", function() { return ProjectService; });
+/* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
+/* harmony import */ var rxjs__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! rxjs */ "./node_modules/rxjs/_esm5/index.js");
+/* harmony import */ var _projects_data__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./projects-data */ "./src/app/projects-data.ts");
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (undefined && undefined.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var ProjectService = /** @class */ (function () {
+    function ProjectService() {
+    }
+    ProjectService.prototype.getProjects = function () {
+        return Object(rxjs__WEBPACK_IMPORTED_MODULE_1__["of"])(_projects_data__WEBPACK_IMPORTED_MODULE_2__["PROJECTS"]);
+    };
+    ProjectService = __decorate([
+        Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
+            providedIn: 'root'
+        }),
+        __metadata("design:paramtypes", [])
+    ], ProjectService);
+    return ProjectService;
+}());
+
+
+
+/***/ }),
+
 /***/ "./src/app/project.ts":
 /*!****************************!*\
   !*** ./src/app/project.ts ***!
@@ -275,7 +319,7 @@ module.exports = "<h2>All Projects</h2>\n\n<ul class=\"projects\">\n    <li *ngF
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ProjectsComponent", function() { return ProjectsComponent; });
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
-/* harmony import */ var _projects_data__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../projects-data */ "./src/app/projects-data.ts");
+/* harmony import */ var _project_service__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../project.service */ "./src/app/project.service.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -288,8 +332,8 @@ var __metadata = (undefined && undefined.__metadata) || function (k, v) {
 
 
 var ProjectsComponent = /** @class */ (function () {
-    function ProjectsComponent() {
-        this.projects = _projects_data__WEBPACK_IMPORTED_MODULE_1__["PROJECTS"];
+    function ProjectsComponent(projectService) {
+        this.projectService = projectService;
     }
     ProjectsComponent.prototype.onSelect = function (project) {
         this.selectedProject = project;
@@ -297,7 +341,13 @@ var ProjectsComponent = /** @class */ (function () {
     ProjectsComponent.prototype.deselect = function () {
         this.selectedProject = null;
     };
+    ProjectsComponent.prototype.getProjects = function () {
+        var _this = this;
+        this.projectService.getProjects()
+            .subscribe(function (projects) { return _this.projects = projects; });
+    };
     ProjectsComponent.prototype.ngOnInit = function () {
+        this.getProjects();
     };
     ProjectsComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
@@ -305,7 +355,7 @@ var ProjectsComponent = /** @class */ (function () {
             template: __webpack_require__(/*! ./projects.component.html */ "./src/app/projects/projects.component.html"),
             styles: [__webpack_require__(/*! ./projects.component.css */ "./src/app/projects/projects.component.css")]
         }),
-        __metadata("design:paramtypes", [])
+        __metadata("design:paramtypes", [_project_service__WEBPACK_IMPORTED_MODULE_1__["ProjectService"]])
     ], ProjectsComponent);
     return ProjectsComponent;
 }());
