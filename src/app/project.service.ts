@@ -1,7 +1,10 @@
 import { Injectable } from '@angular/core';
+
 import { Observable, of} from 'rxjs';
+
 import { Project} from './project';
 import { PROJECTS } from './projects-data';
+import { MessageService } from './message.service';
 
 @Injectable({
   providedIn: 'root'
@@ -9,8 +12,10 @@ import { PROJECTS } from './projects-data';
 export class ProjectService {
     
     getProjects(): Observable<Project[]> {
-        return of(PROJECTS);
+      // send message after fetching projects
+      this.messageService.add('ProjectService: fetched projects');
+      return of(PROJECTS);
     }
 
-  constructor() { }
+  constructor(private messageService: MessageService) { }
 }
