@@ -41,7 +41,7 @@ module.exports = "h2 {\n    text-align: center;\n}\n\n#main {\n    /* background
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"main\">\n    <div style=\"text-align:center\">\n      <h1>\n        Hi Internet, I'm Ali <span placement=\"top\" ngbPopover=\"The 'g' is silent.\">Dogan</span>\n      </h1>\n      <span>I like developing software applications either for mobile, desktop, tablet's, wearables, webapplications or just as a backend service. My language of choice for the past years are Java(backend) and Angular(frontend).</span> <br />\n      <span>Check out my github space: <a href=\"https://github.com/ADogan\">https://github.com/ADogan/</a></span>\n      <br /><br />\n      <span>I'm not much of a designer, as you can see from this website<sup>It's not even responsive! <sup>Yes I used a sup tag for this.<sup>Supsception</sup></sup></sup>; \n        so don't ask me to make things pretty, let's leave that to the pro's.</span>\n        <br /><br /><br />\n    </div>\n    <app-projects></app-projects>\n</div>"
+module.exports = "<div id=\"main\">\n    <div style=\"text-align:center\">\n      <h2>\n        Hi Internet, I'm Ali <span placement=\"top\" ngbPopover=\"The 'g' is silent.\">Dogan</span>\n      </h2>\n      <span>I like developing software applications either for mobile, desktop, tablet's, wearables, webapplications or just as a backend service. My language of choice for the past years are Java(backend) and Angular(frontend).</span> <br />\n      <span>Check out my github space: <a href=\"https://github.com/ADogan\">https://github.com/ADogan/</a></span>\n      <br /><br />\n    </div>\n    <app-projects></app-projects>\n</div>"
 
 /***/ }),
 
@@ -65,7 +65,6 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 
 var AppComponent = /** @class */ (function () {
     function AppComponent() {
-        this.title = 'ADogan';
     }
     AppComponent = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Component"])({
