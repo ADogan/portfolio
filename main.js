@@ -41,7 +41,7 @@ module.exports = "h2 {\n    text-align: center;\n}\n\n#main {\n    /* background
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"main\">\n    <div style=\"text-align:center\">\n      <h2>\n        Hi Internet, I'm Ali <span placement=\"top\" ngbPopover=\"The 'g' is silent.\">Dogan</span>\n      </h2>\n      <span>I like developing software applications either for mobile, desktop, tablet's, wearables, webapplications or just as a backend service. My language of choice for the past years are Java(backend) and Angular(frontend).</span> <br />\n      <span>Check out my github space: <a href=\"https://github.com/ADogan\">https://github.com/ADogan/</a></span>\n      <br /><br />\n    </div>\n    <app-projects></app-projects>\n</div>"
+module.exports = "<div id=\"main\">\n    <div style=\"text-align:center\">\n      <h2>\n        Hi Internet, I'm Ali <span placement=\"top\" ngbPopover=\"The 'g' is silent.\">Dogan</span>\n      </h2>\n      <span>I develop software. My current focus of languages and frameworks are: Java(backend) and Angular(frontend).</span> <br />\n      <span>Check out my github space: <a href=\"https://github.com/ADogan\">https://github.com/ADogan/</a></span>\n      <br /><br />\n    </div>\n    <app-projects></app-projects>\n</div>"
 
 /***/ }),
 
