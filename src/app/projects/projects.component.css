@@ -18,5 +18,10 @@
 }
 
 .selected { 
-background-color:lightgoldenrodyellow;
+background-color:gray;
+}
+#projectsMain {
+    text-align:center;
+    background-color:lightgray;
+    padding:15px;
 }

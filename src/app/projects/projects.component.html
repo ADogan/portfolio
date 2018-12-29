@@ -1,17 +1,13 @@
-<h2>All Projects</h2>
+<div id="projectsMain">
+    <h2>Some Projects</h2>
 
-<ul class="projects">
-    <li *ngFor="let project of projects" [class.selected]="project === selectedProject" (click)="onSelect(project)" class="project">
-        <span class="badge">{{project.id}}</span> -
-        <span>{{project.name}}</span>
-    </li>
+    <ul class="projects">
+        <li *ngFor="let project of projects" [class.selected]="project === selectedProject" (click)="onSelect(project)" class="project">
+            <!-- <span class="badge">{{project.id}}</span> - -->
+            <span>{{project.name}}</span>
+        </li>
+    </ul>
 
+    <app-project-detail [project]="selectedProject"></app-project-detail>
 
-
-</ul>
-<app-project-detail [project]="selectedProject"></app-project-detail>
-
-
-<div *ngIf="selectedProject">
-    <span id="deselectProject" (click)="deselect()">Deselect Project: {{selectedProject.name}}</span>
 </div>

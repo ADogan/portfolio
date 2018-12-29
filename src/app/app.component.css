@@ -4,9 +4,9 @@ h2 {
 
 #main {
     /* background-color:olivedrab; */
-    width:300px;
     padding:20px;
-/*    margin-left:33%;*/
+    margin-top:25px;
+   margin-left:20%;
     border: 2px dotted grey;
     border-bottom-left-radius: 10px;
     border-radius: 15px;
@@ -24,3 +24,15 @@ h2 {
 /*    cursor:grabbing;*/
 }
 
+
+@media (max-width:400px) { 
+    #main {
+        width:300px;
+    }
+ }
+
+@media (min-width:400px) { 
+    #main {
+        width:800px;
+    } 
+} 

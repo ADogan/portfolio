@@ -12,10 +12,11 @@ export class ProjectsComponent implements OnInit {
     projects: Project[];
     
     onSelect(project: Project): void {
-        this.selectedProject = project;
-    }
-    deselect(): void{
-        this.selectedProject = null;    
+        if(this.selectedProject === project) {
+            this.selectedProject = null;    
+        } else {
+            this.selectedProject = project;
+        }
     }
 
     getProjects(): void {

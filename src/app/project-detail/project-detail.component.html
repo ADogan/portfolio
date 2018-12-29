@@ -1,12 +1,6 @@
 <div *ngIf="project" id="SelectedProject">
-    <h2>Selected Project: {{project.name}}</h2>
-    <span> - {{project.id}}</span>
-
-    <div>
-        <label>project
-            <input [(ngModel)]="project.name" placeholder="name">
-        </label>
-    </div>
-
-
+    <h3>{{project.name}}</h3>
+    <!-- <span>{{project.id}}</span><br /> -->
+    <span>{{project.description}}</span> <br />
+    <a href="{{project.url}}">{{project.url}}</a>
 </div>

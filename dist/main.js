@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "h2 {\n    text-align: center;\n}\n\n#main {\n    /* background-color:olivedrab; */\n    width:300px;\n    padding:20px;\n/*    margin-left:33%;*/\n    border: 2px dotted grey;\n    border-bottom-left-radius: 10px;\n    border-radius: 15px;\n    font-family: monospace;\n}\n\n#main:hover {\n    /* background-color:lightgreen; */\n/*    cursor:grab;*/\n    border: 2px solid black;\n}\n\n#main:active, #main:visited{\n/*    background-color: darkolivegreen;*/\n/*    cursor:grabbing;*/\n}\n\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxtQkFBbUI7Q0FDdEI7O0FBRUQ7SUFDSSxpQ0FBaUM7SUFDakMsWUFBWTtJQUNaLGFBQWE7QUFDakIsd0JBQXdCO0lBQ3BCLHdCQUF3QjtJQUN4QixnQ0FBZ0M7SUFDaEMsb0JBQW9CO0lBQ3BCLHVCQUF1QjtDQUMxQjs7QUFFRDtJQUNJLGtDQUFrQztBQUN0QyxvQkFBb0I7SUFDaEIsd0JBQXdCO0NBQzNCOztBQUVEO0FBQ0EseUNBQXlDO0FBQ3pDLHdCQUF3QjtDQUN2QiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaDIge1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuI21haW4ge1xuICAgIC8qIGJhY2tncm91bmQtY29sb3I6b2xpdmVkcmFiOyAqL1xuICAgIHdpZHRoOjMwMHB4O1xuICAgIHBhZGRpbmc6MjBweDtcbi8qICAgIG1hcmdpbi1sZWZ0OjMzJTsqL1xuICAgIGJvcmRlcjogMnB4IGRvdHRlZCBncmV5O1xuICAgIGJvcmRlci1ib3R0b20tbGVmdC1yYWRpdXM6IDEwcHg7XG4gICAgYm9yZGVyLXJhZGl1czogMTVweDtcbiAgICBmb250LWZhbWlseTogbW9ub3NwYWNlO1xufVxuXG4jbWFpbjpob3ZlciB7XG4gICAgLyogYmFja2dyb3VuZC1jb2xvcjpsaWdodGdyZWVuOyAqL1xuLyogICAgY3Vyc29yOmdyYWI7Ki9cbiAgICBib3JkZXI6IDJweCBzb2xpZCBibGFjaztcbn1cblxuI21haW46YWN0aXZlLCAjbWFpbjp2aXNpdGVke1xuLyogICAgYmFja2dyb3VuZC1jb2xvcjogZGFya29saXZlZ3JlZW47Ki9cbi8qICAgIGN1cnNvcjpncmFiYmluZzsqL1xufVxuXG4iXX0= */"
+module.exports = "h2 {\n    text-align: center;\n}\n\n#main {\n    /* background-color:olivedrab; */\n    padding:20px;\n    margin-top:25px;\n   margin-left:20%;\n    border: 2px dotted grey;\n    border-bottom-left-radius: 10px;\n    border-radius: 15px;\n    font-family: monospace;\n}\n\n#main:hover {\n    /* background-color:lightgreen; */\n/*    cursor:grab;*/\n    border: 2px solid black;\n}\n\n#main:active, #main:visited{\n/*    background-color: darkolivegreen;*/\n/*    cursor:grabbing;*/\n}\n\n@media (max-width:400px) { \n    #main {\n        width:300px;\n    }\n }\n\n@media (min-width:400px) { \n    #main {\n        width:800px;\n    } \n} \n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxtQkFBbUI7Q0FDdEI7O0FBRUQ7SUFDSSxpQ0FBaUM7SUFDakMsYUFBYTtJQUNiLGdCQUFnQjtHQUNqQixnQkFBZ0I7SUFDZix3QkFBd0I7SUFDeEIsZ0NBQWdDO0lBQ2hDLG9CQUFvQjtJQUNwQix1QkFBdUI7Q0FDMUI7O0FBRUQ7SUFDSSxrQ0FBa0M7QUFDdEMsb0JBQW9CO0lBQ2hCLHdCQUF3QjtDQUMzQjs7QUFFRDtBQUNBLHlDQUF5QztBQUN6Qyx3QkFBd0I7Q0FDdkI7O0FBR0Q7SUFDSTtRQUNJLFlBQVk7S0FDZjtFQUNIOztBQUVGO0lBQ0k7UUFDSSxZQUFZO0tBQ2Y7Q0FDSiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaDIge1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuI21haW4ge1xuICAgIC8qIGJhY2tncm91bmQtY29sb3I6b2xpdmVkcmFiOyAqL1xuICAgIHBhZGRpbmc6MjBweDtcbiAgICBtYXJnaW4tdG9wOjI1cHg7XG4gICBtYXJnaW4tbGVmdDoyMCU7XG4gICAgYm9yZGVyOiAycHggZG90dGVkIGdyZXk7XG4gICAgYm9yZGVyLWJvdHRvbS1sZWZ0LXJhZGl1czogMTBweDtcbiAgICBib3JkZXItcmFkaXVzOiAxNXB4O1xuICAgIGZvbnQtZmFtaWx5OiBtb25vc3BhY2U7XG59XG5cbiNtYWluOmhvdmVyIHtcbiAgICAvKiBiYWNrZ3JvdW5kLWNvbG9yOmxpZ2h0Z3JlZW47ICovXG4vKiAgICBjdXJzb3I6Z3JhYjsqL1xuICAgIGJvcmRlcjogMnB4IHNvbGlkIGJsYWNrO1xufVxuXG4jbWFpbjphY3RpdmUsICNtYWluOnZpc2l0ZWR7XG4vKiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBkYXJrb2xpdmVncmVlbjsqL1xuLyogICAgY3Vyc29yOmdyYWJiaW5nOyovXG59XG5cblxuQG1lZGlhIChtYXgtd2lkdGg6NDAwcHgpIHsgXG4gICAgI21haW4ge1xuICAgICAgICB3aWR0aDozMDBweDtcbiAgICB9XG4gfVxuXG5AbWVkaWEgKG1pbi13aWR0aDo0MDBweCkgeyBcbiAgICAjbWFpbiB7XG4gICAgICAgIHdpZHRoOjgwMHB4O1xuICAgIH0gXG59ICJdfQ== */"
 
 /***/ }),
 
@@ -41,7 +41,7 @@ module.exports = "h2 {\n    text-align: center;\n}\n\n#main {\n    /* background
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"main\">\n    <div style=\"text-align:center\">\n      <h1>\n        Welcome \n      </h1>\n\n    </div>\n    <h2>Hi</h2>\n    <app-projects></app-projects>\n    <app-messages></app-messages>\n</div>"
+module.exports = "<div id=\"main\">\n    <div style=\"text-align:center\">\n      <h1>\n        Hi Internet, I'm Ali <span placement=\"top\" ngbPopover=\"The 'g' is silent.\">Dogan</span>\n      </h1>\n      <span>I like developing software applications either for mobile, desktop, tablet's, wearables, webapplications or just as a backend service. My language of choice for the past years are Java(backend) and Angular(frontend).</span> <br />\n      <span>Check out my github space: <a href=\"https://github.com/ADogan\">https://github.com/ADogan/</a></span>\n      <br /><br />\n      <span>I'm not much of a designer, as you can see from this website<sup>It's not even responsive! <sup>Yes I used a sup tag for this.<sup>Supsception</sup></sup></sup>; \n        so don't ask me to make things pretty, let's leave that to the pro's.</span>\n        <br /><br /><br />\n    </div>\n    <app-projects></app-projects>\n</div>"
 
 /***/ }),
 
@@ -94,10 +94,11 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @angular/platform-browser */ "./node_modules/@angular/platform-browser/fesm5/platform-browser.js");
 /* harmony import */ var _angular_core__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @angular/core */ "./node_modules/@angular/core/fesm5/core.js");
 /* harmony import */ var _angular_forms__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @angular/forms */ "./node_modules/@angular/forms/fesm5/forms.js");
-/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
-/* harmony import */ var _projects_projects_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./projects/projects.component */ "./src/app/projects/projects.component.ts");
-/* harmony import */ var _project_detail_project_detail_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./project-detail/project-detail.component */ "./src/app/project-detail/project-detail.component.ts");
-/* harmony import */ var _messages_messages_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./messages/messages.component */ "./src/app/messages/messages.component.ts");
+/* harmony import */ var _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @ng-bootstrap/ng-bootstrap */ "./node_modules/@ng-bootstrap/ng-bootstrap/fesm5/ng-bootstrap.js");
+/* harmony import */ var _app_component__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./app.component */ "./src/app/app.component.ts");
+/* harmony import */ var _projects_projects_component__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./projects/projects.component */ "./src/app/projects/projects.component.ts");
+/* harmony import */ var _project_detail_project_detail_component__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./project-detail/project-detail.component */ "./src/app/project-detail/project-detail.component.ts");
+/* harmony import */ var _messages_messages_component__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ./messages/messages.component */ "./src/app/messages/messages.component.ts");
 var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -106,7 +107,8 @@ var __decorate = (undefined && undefined.__decorate) || function (decorators, ta
 };
 
 
- //<--NgModel
+
+
 
 
 
@@ -117,17 +119,18 @@ var AppModule = /** @class */ (function () {
     AppModule = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_1__["NgModule"])({
             declarations: [
-                _app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"],
-                _projects_projects_component__WEBPACK_IMPORTED_MODULE_4__["ProjectsComponent"],
-                _project_detail_project_detail_component__WEBPACK_IMPORTED_MODULE_5__["ProjectDetailComponent"],
-                _messages_messages_component__WEBPACK_IMPORTED_MODULE_6__["MessagesComponent"]
+                _app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"],
+                _projects_projects_component__WEBPACK_IMPORTED_MODULE_5__["ProjectsComponent"],
+                _project_detail_project_detail_component__WEBPACK_IMPORTED_MODULE_6__["ProjectDetailComponent"],
+                _messages_messages_component__WEBPACK_IMPORTED_MODULE_7__["MessagesComponent"]
             ],
             imports: [
                 _angular_platform_browser__WEBPACK_IMPORTED_MODULE_0__["BrowserModule"],
-                _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"]
+                _angular_forms__WEBPACK_IMPORTED_MODULE_2__["FormsModule"],
+                _ng_bootstrap_ng_bootstrap__WEBPACK_IMPORTED_MODULE_3__["NgbModule"]
             ],
             providers: [],
-            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_3__["AppComponent"]]
+            bootstrap: [_app_component__WEBPACK_IMPORTED_MODULE_4__["AppComponent"]]
         })
     ], AppModule);
     return AppModule;
@@ -265,7 +268,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div *ngIf=\"project\" id=\"SelectedProject\">\n    <h2>Selected Project: {{project.name}}</h2>\n    <span> - {{project.id}}</span>\n\n    <div>\n        <label>project\n            <input [(ngModel)]=\"project.name\" placeholder=\"name\">\n        </label>\n    </div>\n\n\n</div>\n"
+module.exports = "<div *ngIf=\"project\" id=\"SelectedProject\">\n    <h3>{{project.name}}</h3>\n    <!-- <span>{{project.id}}</span><br /> -->\n    <span>{{project.description}}</span> <br />\n    <a href=\"{{project.url}}\">{{project.url}}</a>\n</div>\n"
 
 /***/ }),
 
@@ -396,9 +399,19 @@ var Project = /** @class */ (function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PROJECTS", function() { return PROJECTS; });
 var PROJECTS = [
-    { id: 4, name: 'Ang' },
-    { id: 5, name: 'PHP' },
-    { id: 6, name: 'JAVA' }
+    // { id:5, name: 'PHP'},
+    {
+        id: 2,
+        name: 'randomprint',
+        description: 'Looking for a random word? This simple website gives you a random word following the pattern: vowel - consonant - vowel - consonant etc.. ',
+        url: 'https://www.randomprint.com'
+    },
+    {
+        id: 1,
+        name: 'adogan',
+        description: 'This should be the website you are on right now. Its made with Angular 7 and ng bootstrap version 4.',
+        url: 'http://www.adogan.nl'
+    }
 ];
 
 
@@ -411,7 +424,7 @@ var PROJECTS = [
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".project {\n    background-color: white;\n    padding:10px;\n    margin:5px;\n    border-radius: 3px;\n    cursor:pointer;\n    list-style: none;\n}\n\n.project:hover, .badge:hover {\n    background-color: black;\n    color:whitesmoke;\n}\n\n.badge {\n/*    background-color: beige;*/\n/*    display: inline-block;*/\n}\n\n.selected { \nbackground-color:lightgoldenrodyellow;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvamVjdHMvcHJvamVjdHMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLHdCQUF3QjtJQUN4QixhQUFhO0lBQ2IsV0FBVztJQUNYLG1CQUFtQjtJQUNuQixlQUFlO0lBQ2YsaUJBQWlCO0NBQ3BCOztBQUVEO0lBQ0ksd0JBQXdCO0lBQ3hCLGlCQUFpQjtDQUNwQjs7QUFFRDtBQUNBLGdDQUFnQztBQUNoQyw4QkFBOEI7Q0FDN0I7O0FBRUQ7QUFDQSxzQ0FBc0M7Q0FDckMiLCJmaWxlIjoic3JjL2FwcC9wcm9qZWN0cy9wcm9qZWN0cy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnByb2plY3Qge1xuICAgIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xuICAgIHBhZGRpbmc6MTBweDtcbiAgICBtYXJnaW46NXB4O1xuICAgIGJvcmRlci1yYWRpdXM6IDNweDtcbiAgICBjdXJzb3I6cG9pbnRlcjtcbiAgICBsaXN0LXN0eWxlOiBub25lO1xufVxuXG4ucHJvamVjdDpob3ZlciwgLmJhZGdlOmhvdmVyIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcbiAgICBjb2xvcjp3aGl0ZXNtb2tlO1xufVxuXG4uYmFkZ2Uge1xuLyogICAgYmFja2dyb3VuZC1jb2xvcjogYmVpZ2U7Ki9cbi8qICAgIGRpc3BsYXk6IGlubGluZS1ibG9jazsqL1xufVxuXG4uc2VsZWN0ZWQgeyBcbmJhY2tncm91bmQtY29sb3I6bGlnaHRnb2xkZW5yb2R5ZWxsb3c7XG59Il19 */"
+module.exports = ".project {\n    background-color: white;\n    padding:10px;\n    margin:5px;\n    border-radius: 3px;\n    cursor:pointer;\n    list-style: none;\n}\n\n.project:hover, .badge:hover {\n    background-color: black;\n    color:whitesmoke;\n}\n\n.badge {\n/*    background-color: beige;*/\n/*    display: inline-block;*/\n}\n\n.selected { \nbackground-color:gray;\n}\n\n#projectsMain {\n    text-align:center;\n    background-color:lightgray;\n    padding:15px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvamVjdHMvcHJvamVjdHMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLHdCQUF3QjtJQUN4QixhQUFhO0lBQ2IsV0FBVztJQUNYLG1CQUFtQjtJQUNuQixlQUFlO0lBQ2YsaUJBQWlCO0NBQ3BCOztBQUVEO0lBQ0ksd0JBQXdCO0lBQ3hCLGlCQUFpQjtDQUNwQjs7QUFFRDtBQUNBLGdDQUFnQztBQUNoQyw4QkFBOEI7Q0FDN0I7O0FBRUQ7QUFDQSxzQkFBc0I7Q0FDckI7O0FBQ0Q7SUFDSSxrQkFBa0I7SUFDbEIsMkJBQTJCO0lBQzNCLGFBQWE7Q0FDaEIiLCJmaWxlIjoic3JjL2FwcC9wcm9qZWN0cy9wcm9qZWN0cy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnByb2plY3Qge1xuICAgIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xuICAgIHBhZGRpbmc6MTBweDtcbiAgICBtYXJnaW46NXB4O1xuICAgIGJvcmRlci1yYWRpdXM6IDNweDtcbiAgICBjdXJzb3I6cG9pbnRlcjtcbiAgICBsaXN0LXN0eWxlOiBub25lO1xufVxuXG4ucHJvamVjdDpob3ZlciwgLmJhZGdlOmhvdmVyIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcbiAgICBjb2xvcjp3aGl0ZXNtb2tlO1xufVxuXG4uYmFkZ2Uge1xuLyogICAgYmFja2dyb3VuZC1jb2xvcjogYmVpZ2U7Ki9cbi8qICAgIGRpc3BsYXk6IGlubGluZS1ibG9jazsqL1xufVxuXG4uc2VsZWN0ZWQgeyBcbmJhY2tncm91bmQtY29sb3I6Z3JheTtcbn1cbiNwcm9qZWN0c01haW4ge1xuICAgIHRleHQtYWxpZ246Y2VudGVyO1xuICAgIGJhY2tncm91bmQtY29sb3I6bGlnaHRncmF5O1xuICAgIHBhZGRpbmc6MTVweDtcbn0iXX0= */"
 
 /***/ }),
 
@@ -422,7 +435,7 @@ module.exports = ".project {\n    background-color: white;\n    padding:10px;\n 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<h2>All Projects</h2>\n\n<ul class=\"projects\">\n    <li *ngFor=\"let project of projects\" [class.selected]=\"project === selectedProject\" (click)=\"onSelect(project)\" class=\"project\">\n        <span class=\"badge\">{{project.id}}</span> -\n        <span>{{project.name}}</span>\n    </li>\n\n\n\n</ul>\n<app-project-detail [project]=\"selectedProject\"></app-project-detail>\n\n\n<div *ngIf=\"selectedProject\">\n    <span id=\"deselectProject\" (click)=\"deselect()\">Deselect Project: {{selectedProject.name}}</span>\n</div>\n"
+module.exports = "<div id=\"projectsMain\">\n    <h2>Some Projects</h2>\n\n    <ul class=\"projects\">\n        <li *ngFor=\"let project of projects\" [class.selected]=\"project === selectedProject\" (click)=\"onSelect(project)\" class=\"project\">\n            <!-- <span class=\"badge\">{{project.id}}</span> - -->\n            <span>{{project.name}}</span>\n        </li>\n    </ul>\n\n    <app-project-detail [project]=\"selectedProject\"></app-project-detail>\n\n</div>"
 
 /***/ }),
 
@@ -454,10 +467,12 @@ var ProjectsComponent = /** @class */ (function () {
         this.projectService = projectService;
     }
     ProjectsComponent.prototype.onSelect = function (project) {
-        this.selectedProject = project;
-    };
-    ProjectsComponent.prototype.deselect = function () {
-        this.selectedProject = null;
+        if (this.selectedProject === project) {
+            this.selectedProject = null;
+        }
+        else {
+            this.selectedProject = project;
+        }
     };
     ProjectsComponent.prototype.getProjects = function () {
         var _this = this;
