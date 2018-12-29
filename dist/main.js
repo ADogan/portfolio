@@ -11,7 +11,7 @@ function webpackEmptyAsyncContext(req) {
 	// Here Promise.resolve().then() is used instead of new Promise() to prevent
 	// uncaught exception popping up in devtools
 	return Promise.resolve().then(function() {
-		var e = new Error('Cannot find module "' + req + '".');
+		var e = new Error("Cannot find module '" + req + "'");
 		e.code = 'MODULE_NOT_FOUND';
 		throw e;
 	});
@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "h2 {\n    text-align: center;\n}\n\n#main {\n    /* background-color:olivedrab; */\n    width:300px;\n    padding:20px;\n/*    margin-left:33%;*/\n    border: 2px dotted grey;\n    border-bottom-left-radius: 10px;\n    border-radius: 15px;\n    font-family: monospace;\n}\n\n#main:hover {\n    /* background-color:lightgreen; */\n/*    cursor:grab;*/\n    border: 2px solid black;\n}\n\n#main:active, #main:visited{\n/*    background-color: darkolivegreen;*/\n/*    cursor:grabbing;*/\n}\n\n"
+module.exports = "h2 {\n    text-align: center;\n}\n\n#main {\n    /* background-color:olivedrab; */\n    width:300px;\n    padding:20px;\n/*    margin-left:33%;*/\n    border: 2px dotted grey;\n    border-bottom-left-radius: 10px;\n    border-radius: 15px;\n    font-family: monospace;\n}\n\n#main:hover {\n    /* background-color:lightgreen; */\n/*    cursor:grab;*/\n    border: 2px solid black;\n}\n\n#main:active, #main:visited{\n/*    background-color: darkolivegreen;*/\n/*    cursor:grabbing;*/\n}\n\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxtQkFBbUI7Q0FDdEI7O0FBRUQ7SUFDSSxpQ0FBaUM7SUFDakMsWUFBWTtJQUNaLGFBQWE7QUFDakIsd0JBQXdCO0lBQ3BCLHdCQUF3QjtJQUN4QixnQ0FBZ0M7SUFDaEMsb0JBQW9CO0lBQ3BCLHVCQUF1QjtDQUMxQjs7QUFFRDtJQUNJLGtDQUFrQztBQUN0QyxvQkFBb0I7SUFDaEIsd0JBQXdCO0NBQzNCOztBQUVEO0FBQ0EseUNBQXlDO0FBQ3pDLHdCQUF3QjtDQUN2QiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaDIge1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuI21haW4ge1xuICAgIC8qIGJhY2tncm91bmQtY29sb3I6b2xpdmVkcmFiOyAqL1xuICAgIHdpZHRoOjMwMHB4O1xuICAgIHBhZGRpbmc6MjBweDtcbi8qICAgIG1hcmdpbi1sZWZ0OjMzJTsqL1xuICAgIGJvcmRlcjogMnB4IGRvdHRlZCBncmV5O1xuICAgIGJvcmRlci1ib3R0b20tbGVmdC1yYWRpdXM6IDEwcHg7XG4gICAgYm9yZGVyLXJhZGl1czogMTVweDtcbiAgICBmb250LWZhbWlseTogbW9ub3NwYWNlO1xufVxuXG4jbWFpbjpob3ZlciB7XG4gICAgLyogYmFja2dyb3VuZC1jb2xvcjpsaWdodGdyZWVuOyAqL1xuLyogICAgY3Vyc29yOmdyYWI7Ki9cbiAgICBib3JkZXI6IDJweCBzb2xpZCBibGFjaztcbn1cblxuI21haW46YWN0aXZlLCAjbWFpbjp2aXNpdGVke1xuLyogICAgYmFja2dyb3VuZC1jb2xvcjogZGFya29saXZlZ3JlZW47Ki9cbi8qICAgIGN1cnNvcjpncmFiYmluZzsqL1xufVxuXG4iXX0= */"
 
 /***/ }),
 
@@ -188,7 +188,7 @@ var MessageService = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/* MessagesComponent's private CSS styles */\nh2 {\n    color: red;\n    font-family: Arial, Helvetica, sans-serif;\n    font-weight: lighter;\n  }\nbody {\n    margin: 2em;\n  }\nbody, input[text], button {\n    color: crimson;\n    font-family: Cambria, Georgia;\n  }\nbutton.clear {\n    font-family: Arial;\n    background-color: #eee;\n    border: none;\n    padding: 5px 10px;\n    border-radius: 4px;\n    cursor: pointer;\n    cursor: hand;\n  }\nbutton:hover {\n    background-color: #cfd8dc;\n  }\nbutton:disabled {\n    background-color: #eee;\n    color: #aaa;\n    cursor: auto;\n  }\nbutton.clear {\n    color: #888;\n    margin-bottom: 12px;\n  }"
+module.exports = "/* MessagesComponent's private CSS styles */\nh2 {\n    color: red;\n    font-family: Arial, Helvetica, sans-serif;\n    font-weight: lighter;\n  }\nbody {\n    margin: 2em;\n  }\nbody, input[text], button {\n    color: crimson;\n    font-family: Cambria, Georgia;\n  }\nbutton.clear {\n    font-family: Arial;\n    background-color: #eee;\n    border: none;\n    padding: 5px 10px;\n    border-radius: 4px;\n    cursor: pointer;\n    cursor: hand;\n  }\nbutton:hover {\n    background-color: #cfd8dc;\n  }\nbutton:disabled {\n    background-color: #eee;\n    color: #aaa;\n    cursor: auto;\n  }\nbutton.clear {\n    color: #888;\n    margin-bottom: 12px;\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbWVzc2FnZXMvbWVzc2FnZXMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSw0Q0FBNEM7QUFDNUM7SUFDSSxXQUFXO0lBQ1gsMENBQTBDO0lBQzFDLHFCQUFxQjtHQUN0QjtBQUNEO0lBQ0UsWUFBWTtHQUNiO0FBQ0Q7SUFDRSxlQUFlO0lBQ2YsOEJBQThCO0dBQy9CO0FBRUQ7SUFDRSxtQkFBbUI7SUFDbkIsdUJBQXVCO0lBQ3ZCLGFBQWE7SUFDYixrQkFBa0I7SUFDbEIsbUJBQW1CO0lBQ25CLGdCQUFnQjtJQUNoQixhQUFhO0dBQ2Q7QUFDRDtJQUNFLDBCQUEwQjtHQUMzQjtBQUNEO0lBQ0UsdUJBQXVCO0lBQ3ZCLFlBQVk7SUFDWixhQUFhO0dBQ2Q7QUFDRDtJQUNFLFlBQVk7SUFDWixvQkFBb0I7R0FDckIiLCJmaWxlIjoic3JjL2FwcC9tZXNzYWdlcy9tZXNzYWdlcy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogTWVzc2FnZXNDb21wb25lbnQncyBwcml2YXRlIENTUyBzdHlsZXMgKi9cbmgyIHtcbiAgICBjb2xvcjogcmVkO1xuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICAgIGZvbnQtd2VpZ2h0OiBsaWdodGVyO1xuICB9XG4gIGJvZHkge1xuICAgIG1hcmdpbjogMmVtO1xuICB9XG4gIGJvZHksIGlucHV0W3RleHRdLCBidXR0b24ge1xuICAgIGNvbG9yOiBjcmltc29uO1xuICAgIGZvbnQtZmFtaWx5OiBDYW1icmlhLCBHZW9yZ2lhO1xuICB9XG4gICBcbiAgYnV0dG9uLmNsZWFyIHtcbiAgICBmb250LWZhbWlseTogQXJpYWw7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2VlZTtcbiAgICBib3JkZXI6IG5vbmU7XG4gICAgcGFkZGluZzogNXB4IDEwcHg7XG4gICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBjdXJzb3I6IGhhbmQ7XG4gIH1cbiAgYnV0dG9uOmhvdmVyIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjY2ZkOGRjO1xuICB9XG4gIGJ1dHRvbjpkaXNhYmxlZCB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2VlZTtcbiAgICBjb2xvcjogI2FhYTtcbiAgICBjdXJzb3I6IGF1dG87XG4gIH1cbiAgYnV0dG9uLmNsZWFyIHtcbiAgICBjb2xvcjogIzg4ODtcbiAgICBtYXJnaW4tYm90dG9tOiAxMnB4O1xuICB9Il19 */"
 
 /***/ }),
 
@@ -254,7 +254,7 @@ var MessagesComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ""
+module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Byb2plY3QtZGV0YWlsL3Byb2plY3QtZGV0YWlsLmNvbXBvbmVudC5jc3MifQ== */"
 
 /***/ }),
 
@@ -411,7 +411,7 @@ var PROJECTS = [
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".project {\n    background-color: white;\n    padding:10px;\n    margin:5px;\n    border-radius: 3px;\n    cursor:pointer;\n    list-style: none;\n}\n\n.project:hover, .badge:hover {\n    background-color: black;\n    color:whitesmoke;\n}\n\n.badge {\n/*    background-color: beige;*/\n/*    display: inline-block;*/\n}\n\n.selected { \nbackground-color:lightgoldenrodyellow;\n}"
+module.exports = ".project {\n    background-color: white;\n    padding:10px;\n    margin:5px;\n    border-radius: 3px;\n    cursor:pointer;\n    list-style: none;\n}\n\n.project:hover, .badge:hover {\n    background-color: black;\n    color:whitesmoke;\n}\n\n.badge {\n/*    background-color: beige;*/\n/*    display: inline-block;*/\n}\n\n.selected { \nbackground-color:lightgoldenrodyellow;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvamVjdHMvcHJvamVjdHMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLHdCQUF3QjtJQUN4QixhQUFhO0lBQ2IsV0FBVztJQUNYLG1CQUFtQjtJQUNuQixlQUFlO0lBQ2YsaUJBQWlCO0NBQ3BCOztBQUVEO0lBQ0ksd0JBQXdCO0lBQ3hCLGlCQUFpQjtDQUNwQjs7QUFFRDtBQUNBLGdDQUFnQztBQUNoQyw4QkFBOEI7Q0FDN0I7O0FBRUQ7QUFDQSxzQ0FBc0M7Q0FDckMiLCJmaWxlIjoic3JjL2FwcC9wcm9qZWN0cy9wcm9qZWN0cy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnByb2plY3Qge1xuICAgIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xuICAgIHBhZGRpbmc6MTBweDtcbiAgICBtYXJnaW46NXB4O1xuICAgIGJvcmRlci1yYWRpdXM6IDNweDtcbiAgICBjdXJzb3I6cG9pbnRlcjtcbiAgICBsaXN0LXN0eWxlOiBub25lO1xufVxuXG4ucHJvamVjdDpob3ZlciwgLmJhZGdlOmhvdmVyIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcbiAgICBjb2xvcjp3aGl0ZXNtb2tlO1xufVxuXG4uYmFkZ2Uge1xuLyogICAgYmFja2dyb3VuZC1jb2xvcjogYmVpZ2U7Ki9cbi8qICAgIGRpc3BsYXk6IGlubGluZS1ibG9jazsqL1xufVxuXG4uc2VsZWN0ZWQgeyBcbmJhY2tncm91bmQtY29sb3I6bGlnaHRnb2xkZW5yb2R5ZWxsb3c7XG59Il19 */"
 
 /***/ }),
 
@@ -542,7 +542,7 @@ Object(_angular_platform_browser_dynamic__WEBPACK_IMPORTED_MODULE_1__["platformB
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! /Users/da/Works/Software/HTML_JS_CSS/PORTFOLIO/adogangithub/src/main.ts */"./src/main.ts");
+module.exports = __webpack_require__(/*! /Volumes/intensae/Works_Projects/adogan.github.io/src/main.ts */"./src/main.ts");
 
 
 /***/ })
