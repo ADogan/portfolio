@@ -1,38 +1,29 @@
-h2 {
-    text-align: center;
+html,
+body {
+  overflow-x: hidden; /* Prevent scroll on narrow devices */
 }
 
-#main {
-    /* background-color:olivedrab; */
-    padding:20px;
-    margin-top:25px;
-   margin-left:20%;
-    border: 2px dotted grey;
-    border-bottom-left-radius: 10px;
-    border-radius: 15px;
-    font-family: monospace;
+.jumbotron {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    margin-bottom: 0;
+    background-color: #fff;
+  }
+@media (min-width: 768px) {
+  .jumbotron {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
 }
 
-#main:hover {
-    /* background-color:lightgreen; */
-/*    cursor:grab;*/
-    border: 2px solid black;
+.jumbotron p:last-child {
+  margin-bottom: 0;
 }
 
-#main:active, #main:visited{
-/*    background-color: darkolivegreen;*/
-/*    cursor:grabbing;*/
+.jumbotron-heading {
+  font-weight: 300;
 }
 
-
-@media (max-width:400px) { 
-    #main {
-        width:300px;
-    }
- }
-
-@media (min-width:400px) { 
-    #main {
-        width:800px;
-    } 
-} 
+.jumbotron .container {
+  max-width: 40rem;
+}

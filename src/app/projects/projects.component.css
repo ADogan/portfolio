@@ -1,27 +1,6 @@
-.project {
-    background-color: white;
-    padding:10px;
-    margin:5px;
-    border-radius: 3px;
-    cursor:pointer;
-    list-style: none;
-}
 
-.project:hover, .badge:hover {
-    background-color: black;
-    color:whitesmoke;
-}
 
-.badge {
-/*    background-color: beige;*/
-/*    display: inline-block;*/
-}
-
-.selected { 
-background-color:gray;
-}
-#projectsMain {
-    text-align:center;
-    background-color:lightgray;
-    padding:15px;
+.albumHeader {
+    text-align: center;
+    text-size:10px;
 }

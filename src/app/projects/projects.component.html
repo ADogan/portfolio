@@ -1,13 +1,20 @@
-<div id="projectsMain">
-    <h2>Some Projects</h2>
 
-    <ul class="projects">
-        <li *ngFor="let project of projects" [class.selected]="project === selectedProject" (click)="onSelect(project)" class="project">
-            <!-- <span class="badge">{{project.id}}</span> - -->
-            <span>{{project.name}}</span>
-        </li>
-    </ul>
 
+<div class="album py-5 bg-light">
+    <h2 class="albumHeader">A Couple of Projects:</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4" *ngFor="let project of projects" [class.selected]="project === selectedProject" (click)="onSelect(project)" >
+                <div class="card mb-4 shadow-sm">
+                <div class="card-body btn btn-sm btn-outline-secondary">
+                    <p class="card-text">{{project.name}}</p>
+                    <div class="d-flex justify-content-between align-items-center">
+                    <small class="text-muted">{{project.tags}}</small>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <app-project-detail [project]="selectedProject"></app-project-detail>
-
 </div>
