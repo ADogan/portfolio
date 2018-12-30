@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "h2 {\n    text-align: center;\n}\n\n#main {\n    /* background-color:olivedrab; */\n    padding:20px;\n    margin-top:25px;\n   margin-left:20%;\n    border: 2px dotted grey;\n    border-bottom-left-radius: 10px;\n    border-radius: 15px;\n    font-family: monospace;\n}\n\n#main:hover {\n    /* background-color:lightgreen; */\n/*    cursor:grab;*/\n    border: 2px solid black;\n}\n\n#main:active, #main:visited{\n/*    background-color: darkolivegreen;*/\n/*    cursor:grabbing;*/\n}\n\n@media (max-width:400px) { \n    #main {\n        width:300px;\n    }\n }\n\n@media (min-width:400px) { \n    #main {\n        width:800px;\n    } \n} \n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxtQkFBbUI7Q0FDdEI7O0FBRUQ7SUFDSSxpQ0FBaUM7SUFDakMsYUFBYTtJQUNiLGdCQUFnQjtHQUNqQixnQkFBZ0I7SUFDZix3QkFBd0I7SUFDeEIsZ0NBQWdDO0lBQ2hDLG9CQUFvQjtJQUNwQix1QkFBdUI7Q0FDMUI7O0FBRUQ7SUFDSSxrQ0FBa0M7QUFDdEMsb0JBQW9CO0lBQ2hCLHdCQUF3QjtDQUMzQjs7QUFFRDtBQUNBLHlDQUF5QztBQUN6Qyx3QkFBd0I7Q0FDdkI7O0FBR0Q7SUFDSTtRQUNJLFlBQVk7S0FDZjtFQUNIOztBQUVGO0lBQ0k7UUFDSSxZQUFZO0tBQ2Y7Q0FDSiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiaDIge1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbn1cblxuI21haW4ge1xuICAgIC8qIGJhY2tncm91bmQtY29sb3I6b2xpdmVkcmFiOyAqL1xuICAgIHBhZGRpbmc6MjBweDtcbiAgICBtYXJnaW4tdG9wOjI1cHg7XG4gICBtYXJnaW4tbGVmdDoyMCU7XG4gICAgYm9yZGVyOiAycHggZG90dGVkIGdyZXk7XG4gICAgYm9yZGVyLWJvdHRvbS1sZWZ0LXJhZGl1czogMTBweDtcbiAgICBib3JkZXItcmFkaXVzOiAxNXB4O1xuICAgIGZvbnQtZmFtaWx5OiBtb25vc3BhY2U7XG59XG5cbiNtYWluOmhvdmVyIHtcbiAgICAvKiBiYWNrZ3JvdW5kLWNvbG9yOmxpZ2h0Z3JlZW47ICovXG4vKiAgICBjdXJzb3I6Z3JhYjsqL1xuICAgIGJvcmRlcjogMnB4IHNvbGlkIGJsYWNrO1xufVxuXG4jbWFpbjphY3RpdmUsICNtYWluOnZpc2l0ZWR7XG4vKiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBkYXJrb2xpdmVncmVlbjsqL1xuLyogICAgY3Vyc29yOmdyYWJiaW5nOyovXG59XG5cblxuQG1lZGlhIChtYXgtd2lkdGg6NDAwcHgpIHsgXG4gICAgI21haW4ge1xuICAgICAgICB3aWR0aDozMDBweDtcbiAgICB9XG4gfVxuXG5AbWVkaWEgKG1pbi13aWR0aDo0MDBweCkgeyBcbiAgICAjbWFpbiB7XG4gICAgICAgIHdpZHRoOjgwMHB4O1xuICAgIH0gXG59ICJdfQ== */"
+module.exports = "html,\nbody {\n  overflow-x: hidden; /* Prevent scroll on narrow devices */\n}\n\n\n.jumbotron {\n    padding-top: 3rem;\n    padding-bottom: 3rem;\n    margin-bottom: 0;\n    background-color: #fff;\n  }\n\n\n@media (min-width: 768px) {\n    .jumbotron {\n      padding-top: 6rem;\n      padding-bottom: 6rem;\n    }\n    .bd-placeholder-img-lg {\n      font-size: 3.5rem;\n    }\n  }\n\n\n.jumbotron p:last-child {\n    margin-bottom: 0;\n  }\n\n\n.jumbotron-heading {\n    font-weight: 300;\n  }\n\n\n.jumbotron .container {\n    max-width: 40rem;\n  }\n\n\n.bd-placeholder-img {\n    font-size: 1.125rem;\n    text-anchor: middle;\n  }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0VBRUUsbUJBQW1CLENBQUMsc0NBQXNDO0NBQzNEOzs7QUFHRDtJQUNJLGtCQUFrQjtJQUNsQixxQkFBcUI7SUFDckIsaUJBQWlCO0lBQ2pCLHVCQUF1QjtHQUN4Qjs7O0FBQ0Q7SUFDRTtNQUNFLGtCQUFrQjtNQUNsQixxQkFBcUI7S0FDdEI7SUFDRDtNQUNFLGtCQUFrQjtLQUNuQjtHQUNGOzs7QUFFRDtJQUNFLGlCQUFpQjtHQUNsQjs7O0FBRUQ7SUFDRSxpQkFBaUI7R0FDbEI7OztBQUVEO0lBQ0UsaUJBQWlCO0dBQ2xCOzs7QUFFRDtJQUNFLG9CQUFvQjtJQUNwQixvQkFBb0I7R0FDckIiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImh0bWwsXG5ib2R5IHtcbiAgb3ZlcmZsb3cteDogaGlkZGVuOyAvKiBQcmV2ZW50IHNjcm9sbCBvbiBuYXJyb3cgZGV2aWNlcyAqL1xufVxuXG5cbi5qdW1ib3Ryb24ge1xuICAgIHBhZGRpbmctdG9wOiAzcmVtO1xuICAgIHBhZGRpbmctYm90dG9tOiAzcmVtO1xuICAgIG1hcmdpbi1ib3R0b206IDA7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcbiAgfVxuICBAbWVkaWEgKG1pbi13aWR0aDogNzY4cHgpIHtcbiAgICAuanVtYm90cm9uIHtcbiAgICAgIHBhZGRpbmctdG9wOiA2cmVtO1xuICAgICAgcGFkZGluZy1ib3R0b206IDZyZW07XG4gICAgfVxuICAgIC5iZC1wbGFjZWhvbGRlci1pbWctbGcge1xuICAgICAgZm9udC1zaXplOiAzLjVyZW07XG4gICAgfVxuICB9XG4gIFxuICAuanVtYm90cm9uIHA6bGFzdC1jaGlsZCB7XG4gICAgbWFyZ2luLWJvdHRvbTogMDtcbiAgfVxuICBcbiAgLmp1bWJvdHJvbi1oZWFkaW5nIHtcbiAgICBmb250LXdlaWdodDogMzAwO1xuICB9XG4gIFxuICAuanVtYm90cm9uIC5jb250YWluZXIge1xuICAgIG1heC13aWR0aDogNDByZW07XG4gIH1cbiAgXG4gIC5iZC1wbGFjZWhvbGRlci1pbWcge1xuICAgIGZvbnQtc2l6ZTogMS4xMjVyZW07XG4gICAgdGV4dC1hbmNob3I6IG1pZGRsZTtcbiAgfVxuIl19 */"
 
 /***/ }),
 
@@ -41,7 +41,7 @@ module.exports = "h2 {\n    text-align: center;\n}\n\n#main {\n    /* background
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"main\">\n    <div style=\"text-align:center\">\n      <h2>\n        Hi Internet, I'm Ali <span placement=\"top\" ngbPopover=\"The 'g' is silent.\">Dogan</span>\n      </h2>\n      <span>I develop software. My current focus of languages and frameworks are: Java(backend) and Angular(frontend).</span> <br />\n      <span>Check out my github space: <a href=\"https://github.com/ADogan\">https://github.com/ADogan/</a></span>\n      <br /><br />\n    </div>\n    <app-projects></app-projects>\n</div>"
+module.exports = "<main role=\"main\">\n  <div class=\"container\">\n    <section class=\"jumbotron text-center\">\n        <h1 class=\"jumbotron-heading\">Hi Internet, I'm Ali <span placement=\"top\" ngbPopover=\"The 'g' is silent.\">Dogan</span>.</h1>\n        <p class=\"lead text-muted\">I develop software. My current focus of languages and frameworks are: Java(backend) and Angular(frontend).</p>\n        <p class=\"lead text-muted\">Check out my github space: <a href=\"https://github.com/ADogan\">https://github.com/ADogan/</a></p>\n      </section>\n      <app-projects></app-projects>\n    </div>\n  </main>"
 
 /***/ }),
 
@@ -256,7 +256,7 @@ var MessagesComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzcmMvYXBwL3Byb2plY3QtZGV0YWlsL3Byb2plY3QtZGV0YWlsLmNvbXBvbmVudC5jc3MifQ== */"
+module.exports = "#SelectedProject{\n    max-width: 90%;\n    margin-left:auto;\n    margin-right:auto;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvamVjdC1kZXRhaWwvcHJvamVjdC1kZXRhaWwuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGVBQWU7SUFDZixpQkFBaUI7SUFDakIsa0JBQWtCO0NBQ3JCIiwiZmlsZSI6InNyYy9hcHAvcHJvamVjdC1kZXRhaWwvcHJvamVjdC1kZXRhaWwuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIiNTZWxlY3RlZFByb2plY3R7XG4gICAgbWF4LXdpZHRoOiA5MCU7XG4gICAgbWFyZ2luLWxlZnQ6YXV0bztcbiAgICBtYXJnaW4tcmlnaHQ6YXV0bztcbn0iXX0= */"
 
 /***/ }),
 
@@ -267,7 +267,7 @@ module.exports = "\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div *ngIf=\"project\" id=\"SelectedProject\">\n    <h3>{{project.name}}</h3>\n    <!-- <span>{{project.id}}</span><br /> -->\n    <span>{{project.description}}</span> <br />\n    <a href=\"{{project.url}}\">{{project.url}}</a>\n</div>\n"
+module.exports = "\n<div *ngIf=\"project\" id=\"SelectedProject\" class=\"my-3 p-3 bg-white rounded shadow-sm\">\n  <h6 class=\"border-bottom border-gray pb-2 mb-0\">Project description: {{project.name}}</h6>\n  <div class=\"media text-muted pt-3\">\n    <div class=\"media-body pb-3 mb-0 small lh-125 border-bottom border-gray\">\n      <div class=\"d-flex justify-content-between align-items-center w-100\">\n        <a href=\"{{project.url}}\">{{project.url}}</a>\n      </div>\n      <span class=\"d-block\">{{project.description}}</span>\n    </div>\n  </div>\n</div>"
 
 /***/ }),
 
@@ -403,13 +403,15 @@ var PROJECTS = [
         id: 2,
         name: 'randomprint',
         description: 'Looking for a random word? This simple website gives you a random word following the pattern: vowel - consonant - vowel - consonant etc.. ',
-        url: 'https://www.randomprint.com'
+        url: 'https://www.randomprint.com',
+        tags: 'HTML, CSS, Javascript'
     },
     {
         id: 1,
         name: 'adogan',
         description: 'This should be the website you are on right now. Its made with Angular 7 and ng bootstrap version 4.',
-        url: 'http://www.adogan.nl'
+        url: 'http://www.adogan.nl',
+        tags: 'Angular 7.x, Bootstrap 4.x, ng-bootstrap 4.x'
     }
 ];
 
@@ -423,7 +425,7 @@ var PROJECTS = [
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = ".project {\n    background-color: white;\n    padding:10px;\n    margin:5px;\n    border-radius: 3px;\n    cursor:pointer;\n    list-style: none;\n}\n\n.project:hover, .badge:hover {\n    background-color: black;\n    color:whitesmoke;\n}\n\n.badge {\n/*    background-color: beige;*/\n/*    display: inline-block;*/\n}\n\n.selected { \nbackground-color:gray;\n}\n\n#projectsMain {\n    text-align:center;\n    background-color:lightgray;\n    padding:15px;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvamVjdHMvcHJvamVjdHMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLHdCQUF3QjtJQUN4QixhQUFhO0lBQ2IsV0FBVztJQUNYLG1CQUFtQjtJQUNuQixlQUFlO0lBQ2YsaUJBQWlCO0NBQ3BCOztBQUVEO0lBQ0ksd0JBQXdCO0lBQ3hCLGlCQUFpQjtDQUNwQjs7QUFFRDtBQUNBLGdDQUFnQztBQUNoQyw4QkFBOEI7Q0FDN0I7O0FBRUQ7QUFDQSxzQkFBc0I7Q0FDckI7O0FBQ0Q7SUFDSSxrQkFBa0I7SUFDbEIsMkJBQTJCO0lBQzNCLGFBQWE7Q0FDaEIiLCJmaWxlIjoic3JjL2FwcC9wcm9qZWN0cy9wcm9qZWN0cy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLnByb2plY3Qge1xuICAgIGJhY2tncm91bmQtY29sb3I6IHdoaXRlO1xuICAgIHBhZGRpbmc6MTBweDtcbiAgICBtYXJnaW46NXB4O1xuICAgIGJvcmRlci1yYWRpdXM6IDNweDtcbiAgICBjdXJzb3I6cG9pbnRlcjtcbiAgICBsaXN0LXN0eWxlOiBub25lO1xufVxuXG4ucHJvamVjdDpob3ZlciwgLmJhZGdlOmhvdmVyIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiBibGFjaztcbiAgICBjb2xvcjp3aGl0ZXNtb2tlO1xufVxuXG4uYmFkZ2Uge1xuLyogICAgYmFja2dyb3VuZC1jb2xvcjogYmVpZ2U7Ki9cbi8qICAgIGRpc3BsYXk6IGlubGluZS1ibG9jazsqL1xufVxuXG4uc2VsZWN0ZWQgeyBcbmJhY2tncm91bmQtY29sb3I6Z3JheTtcbn1cbiNwcm9qZWN0c01haW4ge1xuICAgIHRleHQtYWxpZ246Y2VudGVyO1xuICAgIGJhY2tncm91bmQtY29sb3I6bGlnaHRncmF5O1xuICAgIHBhZGRpbmc6MTVweDtcbn0iXX0= */"
+module.exports = "\n\n.albumHeader {\n    text-align: center;\n    text-size:10px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvamVjdHMvcHJvamVjdHMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUVBO0lBQ0ksbUJBQW1CO0lBQ25CLGVBQWU7Q0FDbEIiLCJmaWxlIjoic3JjL2FwcC9wcm9qZWN0cy9wcm9qZWN0cy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXG5cbi5hbGJ1bUhlYWRlciB7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIHRleHQtc2l6ZToxMHB4O1xufVxuIl19 */"
 
 /***/ }),
 
@@ -434,7 +436,7 @@ module.exports = ".project {\n    background-color: white;\n    padding:10px;\n 
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<div id=\"projectsMain\">\n    <h2>Some Projects</h2>\n\n    <ul class=\"projects\">\n        <li *ngFor=\"let project of projects\" [class.selected]=\"project === selectedProject\" (click)=\"onSelect(project)\" class=\"project\">\n            <!-- <span class=\"badge\">{{project.id}}</span> - -->\n            <span>{{project.name}}</span>\n        </li>\n    </ul>\n\n    <app-project-detail [project]=\"selectedProject\"></app-project-detail>\n\n</div>"
+module.exports = "\n\n<div class=\"album py-5 bg-light\">\n    <h2 class=\"albumHeader\">A Couple of Projects:</h2>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-4\" *ngFor=\"let project of projects\" [class.selected]=\"project === selectedProject\" (click)=\"onSelect(project)\" >\n                <div class=\"card mb-4 shadow-sm\">\n                <div class=\"card-body btn btn-sm btn-outline-secondary\">\n                    <p class=\"card-text\">{{project.name}}</p>\n                    <div class=\"d-flex justify-content-between align-items-center\">\n                    <small class=\"text-muted\">{{project.tags}}</small>\n                    </div>\n                </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <app-project-detail [project]=\"selectedProject\"></app-project-detail>\n</div>"
 
 /***/ }),
 
