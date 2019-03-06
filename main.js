@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "html,\nbody {\n  overflow-x: hidden; /* Prevent scroll on narrow devices */\n}\n\n\n.jumbotron {\n    padding-top: 3rem;\n    padding-bottom: 3rem;\n    margin-bottom: 0;\n    background-color: #fff;\n  }\n\n\n@media (min-width: 768px) {\n    .jumbotron {\n      padding-top: 6rem;\n      padding-bottom: 6rem;\n    }\n    .bd-placeholder-img-lg {\n      font-size: 3.5rem;\n    }\n  }\n\n\n.jumbotron p:last-child {\n    margin-bottom: 0;\n  }\n\n\n.jumbotron-heading {\n    font-weight: 300;\n  }\n\n\n.jumbotron .container {\n    max-width: 40rem;\n  }\n\n\n.bd-placeholder-img {\n    font-size: 1.125rem;\n    text-anchor: middle;\n  }\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0VBRUUsbUJBQW1CLENBQUMsc0NBQXNDO0NBQzNEOzs7QUFHRDtJQUNJLGtCQUFrQjtJQUNsQixxQkFBcUI7SUFDckIsaUJBQWlCO0lBQ2pCLHVCQUF1QjtHQUN4Qjs7O0FBQ0Q7SUFDRTtNQUNFLGtCQUFrQjtNQUNsQixxQkFBcUI7S0FDdEI7SUFDRDtNQUNFLGtCQUFrQjtLQUNuQjtHQUNGOzs7QUFFRDtJQUNFLGlCQUFpQjtHQUNsQjs7O0FBRUQ7SUFDRSxpQkFBaUI7R0FDbEI7OztBQUVEO0lBQ0UsaUJBQWlCO0dBQ2xCOzs7QUFFRDtJQUNFLG9CQUFvQjtJQUNwQixvQkFBb0I7R0FDckIiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImh0bWwsXG5ib2R5IHtcbiAgb3ZlcmZsb3cteDogaGlkZGVuOyAvKiBQcmV2ZW50IHNjcm9sbCBvbiBuYXJyb3cgZGV2aWNlcyAqL1xufVxuXG5cbi5qdW1ib3Ryb24ge1xuICAgIHBhZGRpbmctdG9wOiAzcmVtO1xuICAgIHBhZGRpbmctYm90dG9tOiAzcmVtO1xuICAgIG1hcmdpbi1ib3R0b206IDA7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2ZmZjtcbiAgfVxuICBAbWVkaWEgKG1pbi13aWR0aDogNzY4cHgpIHtcbiAgICAuanVtYm90cm9uIHtcbiAgICAgIHBhZGRpbmctdG9wOiA2cmVtO1xuICAgICAgcGFkZGluZy1ib3R0b206IDZyZW07XG4gICAgfVxuICAgIC5iZC1wbGFjZWhvbGRlci1pbWctbGcge1xuICAgICAgZm9udC1zaXplOiAzLjVyZW07XG4gICAgfVxuICB9XG4gIFxuICAuanVtYm90cm9uIHA6bGFzdC1jaGlsZCB7XG4gICAgbWFyZ2luLWJvdHRvbTogMDtcbiAgfVxuICBcbiAgLmp1bWJvdHJvbi1oZWFkaW5nIHtcbiAgICBmb250LXdlaWdodDogMzAwO1xuICB9XG4gIFxuICAuanVtYm90cm9uIC5jb250YWluZXIge1xuICAgIG1heC13aWR0aDogNDByZW07XG4gIH1cbiAgXG4gIC5iZC1wbGFjZWhvbGRlci1pbWcge1xuICAgIGZvbnQtc2l6ZTogMS4xMjVyZW07XG4gICAgdGV4dC1hbmNob3I6IG1pZGRsZTtcbiAgfVxuIl19 */"
+module.exports = "html,\nbody {\n  overflow-x: hidden; /* Prevent scroll on narrow devices */\n}\n\n.jumbotron {\n    padding-top: 3rem;\n    padding-bottom: 3rem;\n    margin-bottom: 0;\n    background-color: #fff;\n  }\n\n@media (min-width: 768px) {\n  .jumbotron {\n    padding-top: 6rem;\n    padding-bottom: 6rem;\n  }\n}\n\n.jumbotron p:last-child {\n  margin-bottom: 0;\n}\n\n.jumbotron-heading {\n  font-weight: 300;\n}\n\n.jumbotron .container {\n  max-width: 40rem;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0VBRUUsbUJBQW1CLENBQUMsc0NBQXNDO0NBQzNEOztBQUVEO0lBQ0ksa0JBQWtCO0lBQ2xCLHFCQUFxQjtJQUNyQixpQkFBaUI7SUFDakIsdUJBQXVCO0dBQ3hCOztBQUNIO0VBQ0U7SUFDRSxrQkFBa0I7SUFDbEIscUJBQXFCO0dBQ3RCO0NBQ0Y7O0FBRUQ7RUFDRSxpQkFBaUI7Q0FDbEI7O0FBRUQ7RUFDRSxpQkFBaUI7Q0FDbEI7O0FBRUQ7RUFDRSxpQkFBaUI7Q0FDbEIiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImh0bWwsXG5ib2R5IHtcbiAgb3ZlcmZsb3cteDogaGlkZGVuOyAvKiBQcmV2ZW50IHNjcm9sbCBvbiBuYXJyb3cgZGV2aWNlcyAqL1xufVxuXG4uanVtYm90cm9uIHtcbiAgICBwYWRkaW5nLXRvcDogM3JlbTtcbiAgICBwYWRkaW5nLWJvdHRvbTogM3JlbTtcbiAgICBtYXJnaW4tYm90dG9tOiAwO1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XG4gIH1cbkBtZWRpYSAobWluLXdpZHRoOiA3NjhweCkge1xuICAuanVtYm90cm9uIHtcbiAgICBwYWRkaW5nLXRvcDogNnJlbTtcbiAgICBwYWRkaW5nLWJvdHRvbTogNnJlbTtcbiAgfVxufVxuXG4uanVtYm90cm9uIHA6bGFzdC1jaGlsZCB7XG4gIG1hcmdpbi1ib3R0b206IDA7XG59XG5cbi5qdW1ib3Ryb24taGVhZGluZyB7XG4gIGZvbnQtd2VpZ2h0OiAzMDA7XG59XG5cbi5qdW1ib3Ryb24gLmNvbnRhaW5lciB7XG4gIG1heC13aWR0aDogNDByZW07XG59Il19 */"
 
 /***/ }),
 
@@ -398,20 +398,27 @@ var Project = /** @class */ (function () {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "PROJECTS", function() { return PROJECTS; });
 var PROJECTS = [
-    // { id:5, name: 'PHP'},
-    {
-        id: 2,
-        name: 'randomprint',
-        description: 'Looking for a random word? This simple website gives you a random word following the pattern: vowel - consonant - vowel - consonant etc.. ',
-        url: 'https://www.randomprint.com',
-        tags: 'HTML, CSS, Javascript'
-    },
     {
         id: 1,
         name: 'adogan',
         description: 'This should be the website you are on right now. Its made with Angular 7 and ng bootstrap version 4.',
         url: 'http://www.adogan.nl',
-        tags: 'Angular 7.x, Bootstrap 4.x, ng-bootstrap 4.x'
+        tags: 'Angular 7, Bootstrap 4, ng-bootstrap 4'
+    }, {
+        id: 2,
+        name: 'randomprint',
+        description: 'Looking for a random word? This simple website gives you a random word following the pattern: '
+            + 'vowel - consonant - vowel - consonant etc.. ',
+        url: 'https://www.randomprint.com',
+        tags: 'HTML, CSS, Javascript'
+    },
+    {
+        id: 3,
+        name: 'verbruikskosten',
+        description: 'Electricity cost of a device calculation page. Meant to quickly perform a simple task without much '
+            + 'navigation or confusion for the user. Planned for expanding it with various items for sale on the internet.',
+        url: 'https://verbruikskosten.nl',
+        tags: 'HTML, CSS, Javascript, Angular 7, ng-bootstrap 4'
     }
 ];
 
@@ -425,7 +432,7 @@ var PROJECTS = [
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n\n.albumHeader {\n    text-align: center;\n    text-size:10px;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvamVjdHMvcHJvamVjdHMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUVBO0lBQ0ksbUJBQW1CO0lBQ25CLGVBQWU7Q0FDbEIiLCJmaWxlIjoic3JjL2FwcC9wcm9qZWN0cy9wcm9qZWN0cy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiXG5cbi5hbGJ1bUhlYWRlciB7XG4gICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgIHRleHQtc2l6ZToxMHB4O1xufVxuIl19 */"
+module.exports = "\n\n.albumHeader {\n    text-align: center;\n    text-size:10px;\n}\n\n\n.project_name {\n    color: black;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvamVjdHMvcHJvamVjdHMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUVBO0lBQ0ksbUJBQW1CO0lBQ25CLGVBQWU7Q0FDbEI7OztBQUdEO0lBQ0ksYUFBYTtDQUNoQiIsImZpbGUiOiJzcmMvYXBwL3Byb2plY3RzL3Byb2plY3RzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcblxuLmFsYnVtSGVhZGVyIHtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgdGV4dC1zaXplOjEwcHg7XG59XG5cblxuLnByb2plY3RfbmFtZSB7XG4gICAgY29sb3I6IGJsYWNrO1xufSJdfQ== */"
 
 /***/ }),
 
@@ -436,7 +443,7 @@ module.exports = "\n\n.albumHeader {\n    text-align: center;\n    text-size:10p
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n\n<div class=\"album py-5 bg-light\">\n    <h2 class=\"albumHeader\">A Couple of Projects:</h2>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-4\" *ngFor=\"let project of projects\" [class.selected]=\"project === selectedProject\" (click)=\"onSelect(project)\" >\n                <div class=\"card mb-4 shadow-sm\">\n                <div class=\"card-body btn btn-sm btn-outline-secondary\">\n                    <p class=\"card-text\">{{project.name}}</p>\n                    <div class=\"d-flex justify-content-between align-items-center\">\n                    <small class=\"text-muted\">{{project.tags}}</small>\n                    </div>\n                </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <app-project-detail [project]=\"selectedProject\"></app-project-detail>\n</div>"
+module.exports = "\n\n<div class=\"album py-5 bg-light\">\n    <h2 class=\"albumHeader\">A Couple of Projects:</h2>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-4\" *ngFor=\"let project of projects\" [class.selected]=\"project === selectedProject\" (click)=\"onSelect(project)\" >\n                <div class=\"card mb-4 shadow-sm\">\n                <div class=\"card-body btn btn-sm btn-outline-secondary\">\n                    <p class=\"card-text project_name\">{{project.name}}</p>\n                    <div class=\"d-flex justify-content-between align-items-center\">\n                    <small class=\"text-muted\">{{project.tags}}</small>\n                    </div>\n                </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <app-project-detail [project]=\"selectedProject\"></app-project-detail>\n</div>"
 
 /***/ }),
 
