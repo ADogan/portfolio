@@ -2,10 +2,18 @@
 
 .albumHeader {
     text-align: center;
-    text-size:10px;
+    size:10px;
 }
 
 
 .project_name {
     color: black;
+}
+
+.badge {
+    margin-left:3px;
+}
+
+.panelTitle {
+    color:black;
 }

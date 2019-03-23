@@ -2,19 +2,21 @@
 
 <div class="album py-5 bg-light">
     <h2 class="albumHeader">A Couple of Projects:</h2>
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4" *ngFor="let project of projects" [class.selected]="project === selectedProject" (click)="onSelect(project)" >
-                <div class="card mb-4 shadow-sm">
-                <div class="card-body btn btn-sm btn-outline-secondary">
-                    <p class="card-text project_name">{{project.name}}</p>
-                    <div class="d-flex justify-content-between align-items-center">
-                    <small class="text-muted">{{project.tags}}</small>
-                    </div>
-                </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <app-project-detail [project]="selectedProject"></app-project-detail>
+
+    <ngb-accordion #a="ngbAccordion">
+        <ngb-panel *ngFor="let project of projects">
+            <ng-template ngbPanelHeader>
+              <div class="d-flex align-items-center justify-content-between">
+                <button ngbPanelToggle class="btn btn-link container-fluid text-left pl-0 panelTitle" >{{project.name}}</button>
+              </div>
+            </ng-template>
+            <ng-template ngbPanelContent>
+                {{project.description}}
+                <br />
+                <button type="button" class="btn btn-link"><a href="{{project.url}}">{{project.url}}</a></button>
+                <br />
+                    <span *ngFor="let tag of project.tags" class="badge badge-info">{{tag}}</span>
+              </ng-template>
+          </ngb-panel>
+      </ngb-accordion>
 </div>
