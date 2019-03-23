@@ -13,9 +13,9 @@
             <ng-template ngbPanelContent>
                 {{project.description}}
                 <br />
-                <button type="button" class="btn btn-link"><a href="{{project.url}}">{{project.url}}</a></button>
+                <button type="button" class="btn btn-link"><a href="{{project.url}}" target="_blank">{{project.url}}</a></button>
                 <br />
-                    <span *ngFor="let tag of project.tags" class="badge badge-info">{{tag}}</span>
+                <span *ngFor="let tag of project.tags" class="badge badge-info">{{tag}}</span>
               </ng-template>
           </ngb-panel>
       </ngb-accordion>

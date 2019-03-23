@@ -10,7 +10,7 @@ import { MessageService } from './message.service';
   providedIn: 'root'
 })
 export class ProjectService {
-    
+
     getProjects(): Observable<Project[]> {
       // send message after fetching projects
       this.messageService.add('ProjectService: fetched projects');

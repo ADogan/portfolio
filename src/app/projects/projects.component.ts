@@ -10,10 +10,10 @@ import {ProjectService } from '../project.service';
 export class ProjectsComponent implements OnInit {
     selectedProject: Project;
     projects: Project[];
-    
+
     onSelect(project: Project): void {
         if(this.selectedProject === project) {
-            this.selectedProject = null;    
+            this.selectedProject = null;
         } else {
             this.selectedProject = project;
         }
@@ -23,7 +23,7 @@ export class ProjectsComponent implements OnInit {
         this.projectService.getProjects()
             .subscribe(projects => this.projects = projects);
     }
-    
+
     constructor(private projectService: ProjectService) { }
 
     ngOnInit() {
