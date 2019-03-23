@@ -30,7 +30,7 @@ webpackEmptyAsyncContext.id = "./src/$$_lazy_route_resource lazy recursive";
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "html,\nbody {\n  overflow-x: hidden; /* Prevent scroll on narrow devices */\n}\n\n.jumbotron {\n    padding-top: 3rem;\n    padding-bottom: 3rem;\n    margin-bottom: 0;\n    background-color: #fff;\n  }\n\n@media (min-width: 768px) {\n  .jumbotron {\n    padding-top: 6rem;\n    padding-bottom: 6rem;\n  }\n}\n\n.jumbotron p:last-child {\n  margin-bottom: 0;\n}\n\n.jumbotron-heading {\n  font-weight: 300;\n}\n\n.jumbotron .container {\n  max-width: 40rem;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7O0VBRUUsbUJBQW1CLENBQUMsc0NBQXNDO0NBQzNEOztBQUVEO0lBQ0ksa0JBQWtCO0lBQ2xCLHFCQUFxQjtJQUNyQixpQkFBaUI7SUFDakIsdUJBQXVCO0dBQ3hCOztBQUNIO0VBQ0U7SUFDRSxrQkFBa0I7SUFDbEIscUJBQXFCO0dBQ3RCO0NBQ0Y7O0FBRUQ7RUFDRSxpQkFBaUI7Q0FDbEI7O0FBRUQ7RUFDRSxpQkFBaUI7Q0FDbEI7O0FBRUQ7RUFDRSxpQkFBaUI7Q0FDbEIiLCJmaWxlIjoic3JjL2FwcC9hcHAuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbImh0bWwsXG5ib2R5IHtcbiAgb3ZlcmZsb3cteDogaGlkZGVuOyAvKiBQcmV2ZW50IHNjcm9sbCBvbiBuYXJyb3cgZGV2aWNlcyAqL1xufVxuXG4uanVtYm90cm9uIHtcbiAgICBwYWRkaW5nLXRvcDogM3JlbTtcbiAgICBwYWRkaW5nLWJvdHRvbTogM3JlbTtcbiAgICBtYXJnaW4tYm90dG9tOiAwO1xuICAgIGJhY2tncm91bmQtY29sb3I6ICNmZmY7XG4gIH1cbkBtZWRpYSAobWluLXdpZHRoOiA3NjhweCkge1xuICAuanVtYm90cm9uIHtcbiAgICBwYWRkaW5nLXRvcDogNnJlbTtcbiAgICBwYWRkaW5nLWJvdHRvbTogNnJlbTtcbiAgfVxufVxuXG4uanVtYm90cm9uIHA6bGFzdC1jaGlsZCB7XG4gIG1hcmdpbi1ib3R0b206IDA7XG59XG5cbi5qdW1ib3Ryb24taGVhZGluZyB7XG4gIGZvbnQtd2VpZ2h0OiAzMDA7XG59XG5cbi5qdW1ib3Ryb24gLmNvbnRhaW5lciB7XG4gIG1heC13aWR0aDogNDByZW07XG59Il19 */"
+module.exports = ".jumbotron {\n    padding-top: 3rem;\n    padding-bottom: 3rem;\n    margin-bottom: 0;\n    background-color: #fff;\n  }\n\n@media (min-width: 768px) {\n  .jumbotron {\n    padding-top: 6rem;\n    padding-bottom: 6rem;\n  }\n}\n\n.jumbotron p:last-child {\n  margin-bottom: 0;\n}\n\n.jumbotron-heading {\n  font-weight: 300;\n}\n\n.jumbotron .container {\n  max-width: 40rem;\n}\n\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvYXBwLmNvbXBvbmVudC5jc3MiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBQUE7SUFDSSxpQkFBaUI7SUFDakIsb0JBQW9CO0lBQ3BCLGdCQUFnQjtJQUNoQixzQkFBc0I7RUFDeEI7O0FBRUY7RUFDRTtJQUNFLGlCQUFpQjtJQUNqQixvQkFBb0I7RUFDdEI7QUFDRjs7QUFFQTtFQUNFLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLGdCQUFnQjtBQUNsQjs7QUFFQTtFQUNFLGdCQUFnQjtBQUNsQiIsImZpbGUiOiJzcmMvYXBwL2FwcC5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLmp1bWJvdHJvbiB7XG4gICAgcGFkZGluZy10b3A6IDNyZW07XG4gICAgcGFkZGluZy1ib3R0b206IDNyZW07XG4gICAgbWFyZ2luLWJvdHRvbTogMDtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjZmZmO1xuICB9XG5cbkBtZWRpYSAobWluLXdpZHRoOiA3NjhweCkge1xuICAuanVtYm90cm9uIHtcbiAgICBwYWRkaW5nLXRvcDogNnJlbTtcbiAgICBwYWRkaW5nLWJvdHRvbTogNnJlbTtcbiAgfVxufVxuXG4uanVtYm90cm9uIHA6bGFzdC1jaGlsZCB7XG4gIG1hcmdpbi1ib3R0b206IDA7XG59XG5cbi5qdW1ib3Ryb24taGVhZGluZyB7XG4gIGZvbnQtd2VpZ2h0OiAzMDA7XG59XG5cbi5qdW1ib3Ryb24gLmNvbnRhaW5lciB7XG4gIG1heC13aWR0aDogNDByZW07XG59XG4iXX0= */"
 
 /***/ }),
 
@@ -41,7 +41,7 @@ module.exports = "html,\nbody {\n  overflow-x: hidden; /* Prevent scroll on narr
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "<main role=\"main\">\n  <div class=\"container\">\n    <section class=\"jumbotron text-center\">\n        <h1 class=\"jumbotron-heading\">Hi Internet, I'm Ali <span placement=\"top\" ngbPopover=\"The 'g' is silent.\">Dogan</span>.</h1>\n        <p class=\"lead text-muted\">I develop software. My current focus of languages and frameworks are: Java(backend) and Angular(frontend).</p>\n        <p class=\"lead text-muted\">Check out my github space: <a href=\"https://github.com/ADogan\">https://github.com/ADogan/</a></p>\n      </section>\n      <app-projects></app-projects>\n    </div>\n  </main>"
+module.exports = "<main role=\"main\">\n  <div class=\"container\">\n    <section class=\"jumbotron text-center\">\n        <h1 class=\"jumbotron-heading\">Greetings Person on the Internet, <br />I'm Ali <span placement=\"top\" ngbPopover=\"The 'g' is silent.\">Dogan</span>.</h1>\n        <p class=\"lead text-muted\">I develop software. My current focus of languages and frameworks are: Java(backend) and Angular(frontend).</p>\n        <p class=\"lead text-muted\">Check out my github space: <a href=\"https://github.com/ADogan\">https://github.com/ADogan/</a></p>\n      </section>\n      <app-projects></app-projects>\n    </div>\n  </main>"
 
 /***/ }),
 
@@ -190,7 +190,7 @@ var MessageService = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/* MessagesComponent's private CSS styles */\nh2 {\n    color: red;\n    font-family: Arial, Helvetica, sans-serif;\n    font-weight: lighter;\n  }\nbody {\n    margin: 2em;\n  }\nbody, input[text], button {\n    color: crimson;\n    font-family: Cambria, Georgia;\n  }\nbutton.clear {\n    font-family: Arial;\n    background-color: #eee;\n    border: none;\n    padding: 5px 10px;\n    border-radius: 4px;\n    cursor: pointer;\n    cursor: hand;\n  }\nbutton:hover {\n    background-color: #cfd8dc;\n  }\nbutton:disabled {\n    background-color: #eee;\n    color: #aaa;\n    cursor: auto;\n  }\nbutton.clear {\n    color: #888;\n    margin-bottom: 12px;\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbWVzc2FnZXMvbWVzc2FnZXMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSw0Q0FBNEM7QUFDNUM7SUFDSSxXQUFXO0lBQ1gsMENBQTBDO0lBQzFDLHFCQUFxQjtHQUN0QjtBQUNEO0lBQ0UsWUFBWTtHQUNiO0FBQ0Q7SUFDRSxlQUFlO0lBQ2YsOEJBQThCO0dBQy9CO0FBRUQ7SUFDRSxtQkFBbUI7SUFDbkIsdUJBQXVCO0lBQ3ZCLGFBQWE7SUFDYixrQkFBa0I7SUFDbEIsbUJBQW1CO0lBQ25CLGdCQUFnQjtJQUNoQixhQUFhO0dBQ2Q7QUFDRDtJQUNFLDBCQUEwQjtHQUMzQjtBQUNEO0lBQ0UsdUJBQXVCO0lBQ3ZCLFlBQVk7SUFDWixhQUFhO0dBQ2Q7QUFDRDtJQUNFLFlBQVk7SUFDWixvQkFBb0I7R0FDckIiLCJmaWxlIjoic3JjL2FwcC9tZXNzYWdlcy9tZXNzYWdlcy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogTWVzc2FnZXNDb21wb25lbnQncyBwcml2YXRlIENTUyBzdHlsZXMgKi9cbmgyIHtcbiAgICBjb2xvcjogcmVkO1xuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICAgIGZvbnQtd2VpZ2h0OiBsaWdodGVyO1xuICB9XG4gIGJvZHkge1xuICAgIG1hcmdpbjogMmVtO1xuICB9XG4gIGJvZHksIGlucHV0W3RleHRdLCBidXR0b24ge1xuICAgIGNvbG9yOiBjcmltc29uO1xuICAgIGZvbnQtZmFtaWx5OiBDYW1icmlhLCBHZW9yZ2lhO1xuICB9XG4gICBcbiAgYnV0dG9uLmNsZWFyIHtcbiAgICBmb250LWZhbWlseTogQXJpYWw7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2VlZTtcbiAgICBib3JkZXI6IG5vbmU7XG4gICAgcGFkZGluZzogNXB4IDEwcHg7XG4gICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBjdXJzb3I6IGhhbmQ7XG4gIH1cbiAgYnV0dG9uOmhvdmVyIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjY2ZkOGRjO1xuICB9XG4gIGJ1dHRvbjpkaXNhYmxlZCB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2VlZTtcbiAgICBjb2xvcjogI2FhYTtcbiAgICBjdXJzb3I6IGF1dG87XG4gIH1cbiAgYnV0dG9uLmNsZWFyIHtcbiAgICBjb2xvcjogIzg4ODtcbiAgICBtYXJnaW4tYm90dG9tOiAxMnB4O1xuICB9Il19 */"
+module.exports = "/* MessagesComponent's private CSS styles */\nh2 {\n    color: red;\n    font-family: Arial, Helvetica, sans-serif;\n    font-weight: lighter;\n  }\nbody {\n    margin: 2em;\n  }\nbody, input[text], button {\n    color: crimson;\n    font-family: Cambria, Georgia;\n  }\nbutton.clear {\n    font-family: Arial;\n    background-color: #eee;\n    border: none;\n    padding: 5px 10px;\n    border-radius: 4px;\n    cursor: pointer;\n    cursor: hand;\n  }\nbutton:hover {\n    background-color: #cfd8dc;\n  }\nbutton:disabled {\n    background-color: #eee;\n    color: #aaa;\n    cursor: auto;\n  }\nbutton.clear {\n    color: #888;\n    margin-bottom: 12px;\n  }\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvbWVzc2FnZXMvbWVzc2FnZXMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSwyQ0FBMkM7QUFDM0M7SUFDSSxVQUFVO0lBQ1YseUNBQXlDO0lBQ3pDLG9CQUFvQjtFQUN0QjtBQUNBO0lBQ0UsV0FBVztFQUNiO0FBQ0E7SUFDRSxjQUFjO0lBQ2QsNkJBQTZCO0VBQy9CO0FBRUE7SUFDRSxrQkFBa0I7SUFDbEIsc0JBQXNCO0lBQ3RCLFlBQVk7SUFDWixpQkFBaUI7SUFDakIsa0JBQWtCO0lBQ2xCLGVBQWU7SUFDZixZQUFZO0VBQ2Q7QUFDQTtJQUNFLHlCQUF5QjtFQUMzQjtBQUNBO0lBQ0Usc0JBQXNCO0lBQ3RCLFdBQVc7SUFDWCxZQUFZO0VBQ2Q7QUFDQTtJQUNFLFdBQVc7SUFDWCxtQkFBbUI7RUFDckIiLCJmaWxlIjoic3JjL2FwcC9tZXNzYWdlcy9tZXNzYWdlcy5jb21wb25lbnQuY3NzIiwic291cmNlc0NvbnRlbnQiOlsiLyogTWVzc2FnZXNDb21wb25lbnQncyBwcml2YXRlIENTUyBzdHlsZXMgKi9cbmgyIHtcbiAgICBjb2xvcjogcmVkO1xuICAgIGZvbnQtZmFtaWx5OiBBcmlhbCwgSGVsdmV0aWNhLCBzYW5zLXNlcmlmO1xuICAgIGZvbnQtd2VpZ2h0OiBsaWdodGVyO1xuICB9XG4gIGJvZHkge1xuICAgIG1hcmdpbjogMmVtO1xuICB9XG4gIGJvZHksIGlucHV0W3RleHRdLCBidXR0b24ge1xuICAgIGNvbG9yOiBjcmltc29uO1xuICAgIGZvbnQtZmFtaWx5OiBDYW1icmlhLCBHZW9yZ2lhO1xuICB9XG4gICBcbiAgYnV0dG9uLmNsZWFyIHtcbiAgICBmb250LWZhbWlseTogQXJpYWw7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2VlZTtcbiAgICBib3JkZXI6IG5vbmU7XG4gICAgcGFkZGluZzogNXB4IDEwcHg7XG4gICAgYm9yZGVyLXJhZGl1czogNHB4O1xuICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICBjdXJzb3I6IGhhbmQ7XG4gIH1cbiAgYnV0dG9uOmhvdmVyIHtcbiAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjY2ZkOGRjO1xuICB9XG4gIGJ1dHRvbjpkaXNhYmxlZCB7XG4gICAgYmFja2dyb3VuZC1jb2xvcjogI2VlZTtcbiAgICBjb2xvcjogI2FhYTtcbiAgICBjdXJzb3I6IGF1dG87XG4gIH1cbiAgYnV0dG9uLmNsZWFyIHtcbiAgICBjb2xvcjogIzg4ODtcbiAgICBtYXJnaW4tYm90dG9tOiAxMnB4O1xuICB9Il19 */"
 
 /***/ }),
 
@@ -256,7 +256,7 @@ var MessagesComponent = /** @class */ (function () {
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "#SelectedProject{\n    max-width: 90%;\n    margin-left:auto;\n    margin-right:auto;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvamVjdC1kZXRhaWwvcHJvamVjdC1kZXRhaWwuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGVBQWU7SUFDZixpQkFBaUI7SUFDakIsa0JBQWtCO0NBQ3JCIiwiZmlsZSI6InNyYy9hcHAvcHJvamVjdC1kZXRhaWwvcHJvamVjdC1kZXRhaWwuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIiNTZWxlY3RlZFByb2plY3R7XG4gICAgbWF4LXdpZHRoOiA5MCU7XG4gICAgbWFyZ2luLWxlZnQ6YXV0bztcbiAgICBtYXJnaW4tcmlnaHQ6YXV0bztcbn0iXX0= */"
+module.exports = "#SelectedProject{\n    max-width: 90%;\n    margin-left:auto;\n    margin-right:auto;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvamVjdC1kZXRhaWwvcHJvamVjdC1kZXRhaWwuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQTtJQUNJLGNBQWM7SUFDZCxnQkFBZ0I7SUFDaEIsaUJBQWlCO0FBQ3JCIiwiZmlsZSI6InNyYy9hcHAvcHJvamVjdC1kZXRhaWwvcHJvamVjdC1kZXRhaWwuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIiNTZWxlY3RlZFByb2plY3R7XG4gICAgbWF4LXdpZHRoOiA5MCU7XG4gICAgbWFyZ2luLWxlZnQ6YXV0bztcbiAgICBtYXJnaW4tcmlnaHQ6YXV0bztcbn0iXX0= */"
 
 /***/ }),
 
@@ -403,22 +403,23 @@ var PROJECTS = [
         name: 'adogan',
         description: 'This should be the website you are on right now. Its made with Angular 7 and ng bootstrap version 4.',
         url: 'http://www.adogan.nl',
-        tags: 'Angular 7, Bootstrap 4, ng-bootstrap 4'
+        tags: ['Typescript', 'Angular 7', 'Bootstrap 4', 'ng-bootstrap 4']
     }, {
         id: 2,
         name: 'randomprint',
         description: 'Looking for a random word? This simple website gives you a random word following the pattern: '
             + 'vowel - consonant - vowel - consonant etc.. ',
         url: 'https://www.randomprint.com',
-        tags: 'HTML, CSS, Javascript'
+        tags: ['HTML', 'CSS', 'Javascript']
     },
     {
         id: 3,
         name: 'verbruikskosten',
-        description: 'Electricity cost of a device calculation page. Meant to quickly perform a simple task without much '
+        description: 'Electricity cost of a device calculation page. (It\'s in Dutch at the moment.) '
+            + 'Meant to quickly perform a simple task without much '
             + 'navigation or confusion for the user. Planned for expanding it with various items for sale on the internet.',
         url: 'https://verbruikskosten.nl',
-        tags: 'HTML, CSS, Javascript, Angular 7, ng-bootstrap 4'
+        tags: ['Typescript', 'Angular 7', 'ng-bootstrap 4']
     }
 ];
 
@@ -432,7 +433,7 @@ var PROJECTS = [
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n\n.albumHeader {\n    text-align: center;\n    text-size:10px;\n}\n\n\n.project_name {\n    color: black;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvamVjdHMvcHJvamVjdHMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUVBO0lBQ0ksbUJBQW1CO0lBQ25CLGVBQWU7Q0FDbEI7OztBQUdEO0lBQ0ksYUFBYTtDQUNoQiIsImZpbGUiOiJzcmMvYXBwL3Byb2plY3RzL3Byb2plY3RzLmNvbXBvbmVudC5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJcblxuLmFsYnVtSGVhZGVyIHtcbiAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgdGV4dC1zaXplOjEwcHg7XG59XG5cblxuLnByb2plY3RfbmFtZSB7XG4gICAgY29sb3I6IGJsYWNrO1xufSJdfQ== */"
+module.exports = "\n\n.albumHeader {\n    text-align: center;\n    size:10px;\n}\n\n\n.project_name {\n    color: black;\n}\n\n\n.badge {\n    margin-left:3px;\n}\n\n\n.panelTitle {\n    color:black;\n}\n/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbInNyYy9hcHAvcHJvamVjdHMvcHJvamVjdHMuY29tcG9uZW50LmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOztBQUVBO0lBQ0ksa0JBQWtCO0lBQ2xCLFNBQVM7QUFDYjs7O0FBR0E7SUFDSSxZQUFZO0FBQ2hCOzs7QUFFQTtJQUNJLGVBQWU7QUFDbkI7OztBQUVBO0lBQ0ksV0FBVztBQUNmIiwiZmlsZSI6InNyYy9hcHAvcHJvamVjdHMvcHJvamVjdHMuY29tcG9uZW50LmNzcyIsInNvdXJjZXNDb250ZW50IjpbIlxuXG4uYWxidW1IZWFkZXIge1xuICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICBzaXplOjEwcHg7XG59XG5cblxuLnByb2plY3RfbmFtZSB7XG4gICAgY29sb3I6IGJsYWNrO1xufVxuXG4uYmFkZ2Uge1xuICAgIG1hcmdpbi1sZWZ0OjNweDtcbn1cblxuLnBhbmVsVGl0bGUge1xuICAgIGNvbG9yOmJsYWNrO1xufSJdfQ== */"
 
 /***/ }),
 
@@ -443,7 +444,7 @@ module.exports = "\n\n.albumHeader {\n    text-align: center;\n    text-size:10p
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "\n\n<div class=\"album py-5 bg-light\">\n    <h2 class=\"albumHeader\">A Couple of Projects:</h2>\n    <div class=\"container\">\n        <div class=\"row\">\n            <div class=\"col-md-4\" *ngFor=\"let project of projects\" [class.selected]=\"project === selectedProject\" (click)=\"onSelect(project)\" >\n                <div class=\"card mb-4 shadow-sm\">\n                <div class=\"card-body btn btn-sm btn-outline-secondary\">\n                    <p class=\"card-text project_name\">{{project.name}}</p>\n                    <div class=\"d-flex justify-content-between align-items-center\">\n                    <small class=\"text-muted\">{{project.tags}}</small>\n                    </div>\n                </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <app-project-detail [project]=\"selectedProject\"></app-project-detail>\n</div>"
+module.exports = "\n\n<div class=\"album py-5 bg-light\">\n    <h2 class=\"albumHeader\">A Couple of Projects:</h2>\n\n    <ngb-accordion #a=\"ngbAccordion\">\n        <ngb-panel *ngFor=\"let project of projects\">\n            <ng-template ngbPanelHeader>\n              <div class=\"d-flex align-items-center justify-content-between\">\n                <button ngbPanelToggle class=\"btn btn-link container-fluid text-left pl-0 panelTitle\" >{{project.name}}</button>\n              </div>\n            </ng-template>\n            <ng-template ngbPanelContent>\n                {{project.description}}\n                <br />\n                <button type=\"button\" class=\"btn btn-link\"><a href=\"{{project.url}}\">{{project.url}}</a></button>\n                <br />\n                    <span *ngFor=\"let tag of project.tags\" class=\"badge badge-info\">{{tag}}</span>\n              </ng-template>\n          </ngb-panel>\n      </ngb-accordion>\n</div>"
 
 /***/ }),
 
