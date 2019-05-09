@@ -598,8 +598,8 @@ if(false) {}
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Volumes/intensae/Works_Projects/adogan.github.io/src/styles.css */"./src/styles.css");
-module.exports = __webpack_require__(/*! /Volumes/intensae/Works_Projects/adogan.github.io/node_modules/bootstrap/dist/css/bootstrap.min.css */"./node_modules/bootstrap/dist/css/bootstrap.min.css");
+__webpack_require__(/*! /Volumes/intensae/Works_Projects/ali-portfolio/src/styles.css */"./src/styles.css");
+module.exports = __webpack_require__(/*! /Volumes/intensae/Works_Projects/ali-portfolio/node_modules/bootstrap/dist/css/bootstrap.min.css */"./node_modules/bootstrap/dist/css/bootstrap.min.css");
 
 
 /***/ })
