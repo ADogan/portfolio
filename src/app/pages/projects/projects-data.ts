@@ -6,7 +6,7 @@ export const PROJECTS: Project[] = [
         id: 1,
         name: 'adogan',
         description: 'This should be the website you are on right now. Its made with Angular 7 and ng bootstrap version 4.',
-        url: 'http://www.adogan.nl',
+        url: 'http://www.alidogan.dev',
         tags: ['Angular 7', 'Typescript', 'Bootstrap 4', 'ng-bootstrap 4'],
         image: 'adogan'
     }, {
