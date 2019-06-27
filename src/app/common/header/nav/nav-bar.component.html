@@ -11,7 +11,7 @@
     <div class="nav-scroller py-1 mb-2 ">
         <nav class="nav">
 
-            <a class="blog-header-logo text-dark text-center" href="/">Ali</a>
+            <a class="blog-header-logo text-dark text-center" [routerLink]="['/']">Ali</a>
             <a class="p-2 text-muted" [routerLink]="['/projects']" [ngClass]="{'active_page_link':currentPath === '/projects' }" routerLinkActive="active">Projects</a>
             <a class="p-2 text-muted" [routerLink]="['/aboutme']"  [ngClass]="{'active_page_link':currentPath === '/aboutme' }" routerLinkActive="active">About me</a>
         </nav>
