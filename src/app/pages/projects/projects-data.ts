@@ -8,7 +8,8 @@ export const PROJECTS: Project[] = [
         description: 'This should be the website you are on right now. Its made with Angular 7 and ng bootstrap version 4.',
         url: 'http://www.alidogan.dev',
         tags: ['Angular 7', 'Typescript', 'Bootstrap 4', 'ng-bootstrap 4'],
-        image: 'adogan'
+        image: 'adogan',
+        hide: true
     }, {
         id: 2,
         name: 'randomprint',
@@ -21,7 +22,7 @@ export const PROJECTS: Project[] = [
     {
         id: 3,
         name: 'verbruikskosten',
-        description: 'Electricity cost of a device calculation page. (It\'s in Dutch at the moment.) '
+        description: 'Electricity cost of a device calculation webpage. '
             + 'Meant to quickly perform a simple task without much '
             + 'navigation or confusion for the user. Planned for expanding it with various items for sale on the internet.',
         url: 'https://verbruikskosten.nl',
@@ -31,7 +32,7 @@ export const PROJECTS: Project[] = [
     {
         id: 4,
         name: 'verkeertrainer',
-        description: 'A site dedicated to training for the traffic rules in the Netherlands. Also in Dutch at the moment'
+        description: 'A site dedicated to training for the traffic rules in the Netherlands. '
             + 'At this moment a limitles practice quiz on the traffic signs is present and functional. '
             + 'With limitless I mean that the quiz will keep asking you for new signs and not stop until you close or click away. Happy days :)',
         url: 'https://verkeertrainer.nl',

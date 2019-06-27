@@ -5,4 +5,5 @@ export class Project {
     url: string;
     tags: Array<string>;
     image: string;
+    hide?: boolean;
 }

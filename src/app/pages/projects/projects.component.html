@@ -1,7 +1,7 @@
 <h2 class="page_header">Projects</h2>
 <div class="album py-5">
     <ngb-accordion #a="ngbAccordion" class="project_accordeon">
-        <ngb-panel *ngFor="let project of projects">
+        <ngb-panel *ngFor="let project of projects.reverse()">
             <ng-template ngbPanelHeader>
               <div class="d-flex align-items-center justify-content-between">
                 <button ngbPanelToggle class="btn btn-link container-fluid text-left pl-0 panelTitle" >{{project.name}}</button>

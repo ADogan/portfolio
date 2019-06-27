@@ -10,7 +10,6 @@ import { PROJECTS } from './projects-data';
 export class ProjectService {
 
     getProjects(): Observable<Project[]> {
-      // this.projectService.add('ProjectService: fetched projects');
       return of(PROJECTS);
     }
 

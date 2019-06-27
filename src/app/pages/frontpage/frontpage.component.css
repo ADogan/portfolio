@@ -11,3 +11,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+
+.project_thumbnail {
+  border:1px solid gray;
+}
