@@ -5,6 +5,7 @@ import { RouterModule } from '@angular/router';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
+
 import { AppComponent } from './app.component';
 import { appRoutes } from './routes';
 
@@ -15,8 +16,6 @@ import { FooterComponent } from './common/footer/footer.component';
 import { FrontpageComponent } from './pages/frontpage/frontpage.component';
 import { ProjectsComponent } from './pages/projects/projects.component';
 import { ProjectDetailComponent } from './pages/projects/project-detail/project-detail.component';
-import { BlogComponent } from './pages/blog/blog.component';
-import { PostsComponent } from './pages/blog/posts/posts.component';
 import { AboutmeComponent } from './pages/about/aboutme.component';
 
 @NgModule({
@@ -24,11 +23,9 @@ import { AboutmeComponent } from './pages/about/aboutme.component';
     AppComponent,
     ProjectsComponent,
     ProjectDetailComponent,
-    PostsComponent,
     HeaderComponent,
     NavBarComponent,
     FooterComponent,
-    BlogComponent,
     FrontpageComponent,
     AboutmeComponent
   ],

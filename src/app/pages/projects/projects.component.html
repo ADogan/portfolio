@@ -1,9 +1,6 @@
-
-
-<div class="album py-5 bg-light">
-    <h2 class="albumHeader">A Couple of Projects:</h2>
-
-    <ngb-accordion #a="ngbAccordion">
+<h2 class="page_header">Projects</h2>
+<div class="album py-5">
+    <ngb-accordion #a="ngbAccordion" class="project_accordeon">
         <ngb-panel *ngFor="let project of projects">
             <ng-template ngbPanelHeader>
               <div class="d-flex align-items-center justify-content-between">
@@ -12,6 +9,7 @@
             </ng-template>
             <ng-template ngbPanelContent>
                 {{project.description}}
+                <img class="project_image" title="Thumbnail of: {{project.name}}" src="/assets/project_thumbnails/{{project.image}}.png" />
                 <br />
                 <button type="button" class="btn btn-link"><a href="{{project.url}}" target="_blank">{{project.url}}</a></button>
                 <br />

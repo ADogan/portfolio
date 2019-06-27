@@ -1,7 +1,7 @@
-.albumHeader {
+/* .albumHeader {
     text-align: center;
     size:10px;
-}
+} */
 
 .project_name {
     color: black;
@@ -14,5 +14,23 @@
 .panelTitle {
     color:black;
 }
+.card-header {
+    border-color:black !important;
+}
 
 
+.project_image {
+    display: block;
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:25px;
+    margin-bottom:25px;
+
+    border: 2px solid darkgray;
+    border-radius: 25px;
+}
+
+.project_image:hover {
+    border: 2px solid black;
+}

@@ -1,11 +1,13 @@
 import { Component, OnInit } from '@angular/core';
 import {Project } from './project';
 import {ProjectService } from './project.service';
+import {NgbAccordionConfig} from '@ng-bootstrap/ng-bootstrap';
 
 @Component({
   selector: 'app-projects',
   templateUrl: './projects.component.html',
-  styleUrls: ['./projects.component.css']
+  styleUrls: ['./projects.component.css'],
+  providers: [ NgbAccordionConfig ]
 })
 export class ProjectsComponent implements OnInit {
     selectedProject: Project;
@@ -24,7 +26,10 @@ export class ProjectsComponent implements OnInit {
             .subscribe(projects => this.projects = projects);
     }
 
-    constructor(private projectService: ProjectService) { }
+    constructor(private projectService: ProjectService, config: NgbAccordionConfig) {
+        config.closeOthers = true;
+        config.type = 'light';
+     }
 
     ngOnInit() {
         this.getProjects();

@@ -4,4 +4,5 @@ export class Project {
     description: string;
     url: string;
     tags: Array<string>;
+    image: string;
 }
